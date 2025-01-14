@@ -179,9 +179,18 @@ body {
     text-align: center;
 }
 
-#menubar .clothes {
-    color: brown;
+.clothes {
     display: flex;
+    width: 100%;
+}
+
+.img-box-for-items {
+    width: 20%;
+}
+
+/* img 파일은 img-box에 담을 것 -> 모든 이미지 공통 사항 이라 element style 지정정 */
+img {
+    width: 100%;
 }
 
 #menubar .g {
