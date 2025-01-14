@@ -1,334 +1,365 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="UTF-8" />
-    <title>이용안내</title>
-    <link rel="stylesheet" href="./ig.css" />
-  </head>
-  <!-- commit test -->
-  <body>
-    <div>
-      <hr class="top-line" />
-      <div class="logo">
-        <div class="image-box">
-          <a href="./ig.html">
-            <img src="./images/이거지_dark.png" id="logo" />
-          </a>
-        </div>
-        <div class="rights">
-          <div class="image-box-for-icon">
-            <a href="./cart.html">
-              <img src="./images/cart.png" class="cart" />
-            </a>
-          </div>
-          <div class="image-box-for-icon">
-            <a href="./myPage.html">
-              <img src="./images/myPage.png" class="myPage" />
-            </a>
-          </div>
-        </div>
-      </div>
 
-      <div id="registration">
-        <div id="login" style="margin-right: 1%">로그인</div>
-        <div id="member">회원가입</div>
-      </div>
-    </div>
-    <div id="menubar">
-      <div class="field">
-        <div class="background short-height">
-          <div class="ig">
-            <!-- <h1>AHIGERGI</h1> -->
-            <ul class="flex-row margin">
-              <li class="margin">
-                <select name="신상" id="신상">
-                  <option value="신상" selected disabled>🩵New🩵</option>
-                  <option value="아우터">아우터</option>
-                  <option value="원피스">원피스</option>
-                  <option value="블라우스">블라우스</option>
-                  <option value="니트">니트</option>
-                  <option value="티셔츠">티셔츠</option>
-                  <option value="스커트">스커트</option>
-                  <option value="팬츠">팬츠</option>
-                  <option value="언더웨어">언더웨어</option>
-                  <option value="바캉스룩">바캉스룩</option>
-                </select>
-              </li>
-              <li class="margin">
-                <select name="best" id="best">
-                  <option value="best" selected disabled>🎉Best</option>
-                  <option value="아우터">아우터</option>
-                  <option value="원피스">원피스</option>
-                  <option value="블라우스">블라우스</option>
-                  <option value="니트">니트</option>
-                  <option value="티셔츠">티셔츠</option>
-                  <option value="스커트">스커트</option>
-                  <option value="팬츠">팬츠</option>
-                  <option value="언더웨어">언더웨어</option>
-                  <option value="바캉스룩">바캉스룩</option>
-                </select>
-              </li>
-              <li class="margin">
-                <select name="Made" id="Made">
-                  <option value="made" selected disabled>MADE</option>
-                  <option value="올데이">올데이</option>
-                  <option value="3기장">3기장</option>
-                  <option value="아우라">아우라</option>
-                  <option value="이거지">이거지</option>
-                  <option value="손목시계">손목시계</option>
-                  <option value="목걸이">목걸이</option>
-                </select>
-              </li>
-              <li class="margin">
-                <select name="할인" id="할인">
-                  <option value="오할" selected disabled>💕Sale💕</option>
-                  <option value="80%할인">80% 할인</option>
-                  <option value="타임세일 50%">타임세일 50%</option>
-                  <option value="원쁠원">원쁠원</option>
-                  <option value="이벤트">이벤트</option>
-                </select>
-              </li>
-              <li class="margin">
-                <select name="아우터" id="아우터">
-                  <option value="아우터" selected disabled>Outter</option>
-                  <option value="원피스">핸드메이드</option>
-                  <option value="블라우스">패딩</option>
-                  <option value="니트">코트</option>
-                  <option value="티셔츠">자켓</option>
-                  <option value="스커트">가디건</option>
-                  <option value="팬츠">조끼</option>
-                  <option value="언더웨어">가죽</option>
-                  <option value="바캉스룩">점퍼</option>
-                </select>
-              </li>
-              <li class="margin">
-                <select name="원피스" id="원피스">
-                  <option value="원피스" selected disabled>Onepiece</option>
-                  <option value="원피스">핸드메이드</option>
-                  <option value="블라우스">하객룩</option>
-                  <option value="니트">미니</option>
-                  <option value="티셔츠">미디움</option>
-                  <option value="스커트">롱</option>
-                  <option value="팬츠">H라인</option>
-                  <option value="언더웨어">A라인</option>
-                  <option value="바캉스룩">L라인</option>
-                  <option value="머메이드">머메이드</option>
-                  <option value="투피스">투피스</option>
-                </select>
-              </li>
-              <li class="margin">
-                <select name="니트" id="니트">
-                  <option value="니트" selected disabled>Neat</option>
-                  <option value="원피스">핸드메이드</option>
-                  <option value="블라우스">긴소매</option>
-                  <option value="니트">반소매</option>
-                  <option value="티셔츠">민소매</option>
-                  <option value="스커트">반소매</option>
-                  <option value="팬츠">가디건</option>
-                </select>
-              </li>
-              <li class="margin">
-                <select name="티셔츠" id="티셔츠">
-                  <option value="아우터" selected disabled>T-shirt</option>
-                  <option value="원피스">핸드메이드</option>
-                  <option value="블라우스">긴소매</option>
-                  <option value="니트">민소매</option>
-                  <option value="티셔츠">반소매</option>
-                  <option value="스커트">민소매</option>
-                </select>
-              </li>
-              <li class="margin">
-                <select name="blouse" id="b">
-                  <option value="아우터" selected disabled>Blouse/Shirt</option>
-                  <option value="원피스">핸드메이드</option>
-                  <option value="블라우스">무지</option>
-                  <option value="니트">셔츠</option>
-                  <option value="티셔츠">민소매</option>
-                  <option value="스커트">패턴</option>
-                  <option value="팬츠">리본/타이</option>
-                  <option value="언더웨어">오프숄더</option>
-                  <option value="바캉스룩">레이스</option>
-                </select>
-              </li>
-              <li class="margin">
-                <select name="스커트" id="스커트">
-                  <option value="아우터" selected disabled>Skirt</option>
-                  <option value="원피스">핸드메이드</option>
-                  <option value="블라우스">H라인</option>
-                  <option value="니트">A라인</option>
-                  <option value="티셔츠">플레어</option>
-                  <option value="스커트">프릴</option>
-                  <option value="팬츠">미니</option>
-                  <option value="언더웨어">롱</option>
-                  <option value="바캉스룩">테니스</option>
-                </select>
-              </li>
-              <li class="margin">
-                <select name="pants" id="pants">
-                  <option selected disabled>Pants</option>
-                  <option>쫀쫀이</option>
-                  <option>아우라</option>
-                  <option>단독진행</option>
-                  <option>7~9부</option>
-                  <option>반바지</option>
-                  <option>큐롯</option>
-                  <option>데님</option>
-                  <option>코튼</option>
-                  <option>린넨</option>
-                  <option>슬랙스</option>
-                  <option>스키니</option>
-                  <option>서스펜더</option>
-                  <option>레깅스</option>
-                  <option>니트</option>
-                  <option>트레이닝</option>
-                </select>
-              </li>
-              <li class="margin">
-                <span class="Go">TODAY Go🚛</span>
-              </li>
-            </ul>
-          </div>
+    <head>
+        <meta charset="UTF-8" />
+        <title>이용안내</title>
+        <link rel="stylesheet" href="./ig.css" />
+    </head>
+    <body>
+        <!-- git usage test 2 -->
+        <div>
+            <hr class="top-line" />
+            <div class="logo">
+                <div class="image-box">
+                    <a href="./ig.html">
+                        <img src="./images/이거지_dark.png" id="logo" />
+                    </a>
+                </div>
+                <div class="rights">
+                    <div class="image-box-for-icon">
+                        <a href="./cart.html">
+                            <img src="./images/cart.png" class="cart" />
+                        </a>
+                    </div>
+                    <div class="image-box-for-icon">
+                        <a href="./myPage.html">
+                            <img src="./images/myPage.png" class="myPage" />
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div id="registration">
+                <div id="login" style="margin-right: 1%">로그인</div>
+                <div id="member">회원가입</div>
+            </div>
+
         </div>
-      </div>
-    </div>
-    <h1 class="option-menu-title">이용안내</h1>
-    <div class="wrapper">
-      <h3>회원가입 안내</h3>
-      <p>회원가입안내</p>
-      <p>"아이거지"를 찾아주셔서 감사합니다 :)</p>
-      <p>
-        저희 "아이거지"의 모든 컨텐츠 및 서비스는 회원제를 식시하고 있습니다.
-      </p>
-      <p>
-        아이거지는 아이디, 비밀번호를 기입하고 가입하시면 계정생성이 가능합니다.
-      </p>
-      <p>
-        [회원가입] 메뉴를 통해 이용약관이나 개인정보보호정책 동의 및 일정 양식의
-        가입항목을 기입함으로써 회원에 가입되며 가입 즉시 서비스를 무료로
-        이용하실 수 있습니다.
-      </p>
-      <p>
-        주문하실 때에 이력해야하는 각종 정보들을 일일이 입력하지 않으셔도
-        됩니다.
-      </p>
-      <p>공동구매, 경매행사에 항상 참여하실 수 있습니다.</p>
-      <p>회원을 위한 이벤트 및 각종 할인행사에 참여하실 수 있습니다.</p>
-      <br />
-      <br />
-    </div>
-    <div class="wrapper">
-      <h3>주문 안내</h3>
-      <p>상품 주문은 다음 단계로 이루어집니다.</p>
-      <div>
-        <ol class="option-menu-ordered-list">
-          <li class="option-menu-option">step1: 상품검색</li>
-          <li class="option-menu-option">step2: 장바구니에 담기</li>
-          <li class="option-menu-option">step3: 회원ID 로그인</li>
-          <li class="option-menu-option">step4: 주문서 작성</li>
-          <li class="option-menu-option">step5: 결제방법 선택 및 결제</li>
-          <li class="option-menu-option">step6: 주문 성공 화면(주문번호)</li>
-        </ol>
-      </div>
-    </div>
-    <div class="wrapper">
-      <h3>결제 안내</h3>
-      <p class="weight">[무통장 입금]</p>
-      <p>
-        주문시 입력한 입금자명과 실제입금자의 성명이 반드시 일치하여야 하며,
-        입금하실 금액을 필히 확인해 주시기 바랍니다.
-      </p>
-      <p>
-        주문 후 3일 이내로 입금을 하셔야 하며 입금자가 동일하지 않는 경우
-        고객센터로 꼭 연락을 주셔야 처리가 가능합니다.
-      </p>
-      <p>입금되지 않은 주문은 자동취소 됩니다.</p>
-      <p>국민 468001-01-111971</p>
-      <p>농협 301-0095-6307-61</p>
-      <p>예금주: 아이거지그룹(주)</p>
-      <br />
-    </div>
-    <div></div>
-    <div class="wrapper">
-      <h3>[카드결제]</h3>
-      <p class="weight">
-        카드결제 후 부분취소를 원하실 경우 고객센터로 꼭 연락을 주셔야 합니다.
-      </p>
-      <p>
-        부분적인 취소는 불가능 하며, 취소하실 상품을 제외한 나머지 상품에 대해
-        재결제 해주셔야 합니다.
-      </p>
-      <p>
-        취소하신 상품에 대해서는 현금환불이 불가능하며 적립금으로 대체하여
-        사용하실 수 있습니다.
-      </p>
-      <br />
-    </div>
-    <div class="wrapper">
-      <h3>[핸드폰 결제]</h3>
-      <p>핸드폰 인증으로 간단히 소액결제를 이용 하실 수 있습니다.</p>
-      <br />
-      <p>결제 취소 가능일</p>
-      <p>결제 취소는 졀제하신 당월 1일~말일 이내에 취소가 가능합니다.</p>
-      <p>말일 이후에는 취소가 불가하니 신중한 구매 부탁드려요.</p>
-      <br />
-      <p>당월이 지나 취소가 불가피할 경우</p>
-      <p>
-        현금으로 환불을 원할시 고객센터(010-5805-1641) 카카오 상담 톡 등으로
-        연락 부탁드립니다.
-      </p>
-      <p>또한, 예치금으로 적립도 가능합니다.</p>
-      <br />
-      <p>부분 취소 불가</p>
-      <p>
-        모바일 소액결제는 부분취소가 불가, 전체 취소만 가능하니 이 점 양해
-        부탁드립니다.
-      </p>
-      <br />
-    </div>
-    <div class="wrapper">
-      <h3>배송 안내</h3>
-      <p>배송 업체 : cj 대한통운 택배</p>
-      <p>배송 지역 : 전국 지역</p>
-      <p>배송 비용 : 3,500원(50,000원 이상 구매 시 무료배송)</p>
-      <p>배송 기간 : 1일~7일</p>
-      <p>도서산간비</p>
-      <p>제주도 : 3,000원</p>
-      <p>기타도서산간지역 : 4,000원</p>
-      <br />
-    </div>
-    <div class="flex-row up-border small-font">
-      <ul class="flex-row margin-zero no-list-style">
-        <li class="margin">
-          <a href="이용안내.html">이용안내</a>
-        </li>
-        /
-        <li class="margin">
-          <a href="이용약관.html">이용약관</a>
-        </li>
-        /
-        <li class="margin">
-          <a href="개인정보처리방침.html"> 개인정보처리방침 </a>
-        </li>
-        /
-        <li class="margin">
-          <a href="파트너쉽.html"> 파트너쉽 </a>
-        </li>
-        /
-        <li class="margin">
-          <a href="멤버쉽.html"> 멤버쉽 </a>
-        </li>
-        /
-        <li class="margin">
-          <a href="리크루트.html"> 리크루트 </a>
-        </li>
-        /
-        <li class="margin">
-          <a href="모바일버전.html"> 모바일버전 </a>
-        </li>
-      </ul>
-      <div>
-        <div class="full-name-logo">IG FASHION.CO.LTD Info</div>
-      </div>
-    </div>
-  </body>
+        <div id="menubar">
+            <div class="field">
+                <div class="background short-height">
+                    <div class="ig">
+                        <!-- <h1>AHIGERGI</h1> -->
+                        <ul class="flex-row margin">
+                            <li class="margin">
+                                <select name="신상" id="신상">
+                                    <option value="신상" selected disabled>
+                                        🩵New🩵
+                                    </option>
+                                    <option value="아우터">아우터</option>
+                                    <option value="원피스">원피스</option>
+                                    <option value="블라우스">블라우스</option>
+                                    <option value="니트">니트</option>
+                                    <option value="티셔츠">티셔츠</option>
+                                    <option value="스커트">스커트</option>
+                                    <option value="팬츠">팬츠</option>
+                                    <option value="언더웨어">언더웨어</option>
+                                    <option value="바캉스룩">바캉스룩</option>
+                                </select>
+                            </li>
+                            <li class="margin">
+                                <select name="best" id="best">
+                                    <option value="best" selected disabled>
+                                        🎉Best
+                                    </option>
+                                    <option value="아우터">아우터</option>
+                                    <option value="원피스">원피스</option>
+                                    <option value="블라우스">블라우스</option>
+                                    <option value="니트">니트</option>
+                                    <option value="티셔츠">티셔츠</option>
+                                    <option value="스커트">스커트</option>
+                                    <option value="팬츠">팬츠</option>
+                                    <option value="언더웨어">언더웨어</option>
+                                    <option value="바캉스룩">바캉스룩</option>
+                                </select>
+                            </li>
+                            <li class="margin">
+                                <select name="Made" id="Made">
+                                    <option value="made" selected disabled>
+                                        MADE
+                                    </option>
+                                    <option value="올데이">올데이</option>
+                                    <option value="3기장">3기장</option>
+                                    <option value="아우라">아우라</option>
+                                    <option value="이거지">이거지</option>
+                                    <option value="손목시계">손목시계</option>
+                                    <option value="목걸이">목걸이</option>
+                                </select>
+                            </li>
+                            <li class="margin">
+                                <select name="할인" id="할인">
+                                    <option value="오할" selected disabled>
+                                        💕Sale💕
+                                    </option>
+                                    <option value="80%할인">80% 할인</option>
+                                    <option value="타임세일 50%">
+                                        타임세일 50%
+                                    </option>
+                                    <option value="원쁠원">원쁠원</option>
+                                    <option value="이벤트">이벤트</option>
+                                </select>
+                            </li>
+                            <li class="margin">
+                                <select name="아우터" id="아우터">
+                                    <option value="아우터" selected disabled>
+                                        Outter
+                                    </option>
+                                    <option value="원피스">핸드메이드</option>
+                                    <option value="블라우스">패딩</option>
+                                    <option value="니트">코트</option>
+                                    <option value="티셔츠">자켓</option>
+                                    <option value="스커트">가디건</option>
+                                    <option value="팬츠">조끼</option>
+                                    <option value="언더웨어">가죽</option>
+                                    <option value="바캉스룩">점퍼</option>
+                                </select>
+                            </li>
+                            <li class="margin">
+                                <select name="원피스" id="원피스">
+                                    <option value="원피스" selected disabled>
+                                        Onepiece
+                                    </option>
+                                    <option value="원피스">핸드메이드</option>
+                                    <option value="블라우스">하객룩</option>
+                                    <option value="니트">미니</option>
+                                    <option value="티셔츠">미디움</option>
+                                    <option value="스커트">롱</option>
+                                    <option value="팬츠">H라인</option>
+                                    <option value="언더웨어">A라인</option>
+                                    <option value="바캉스룩">L라인</option>
+                                    <option value="머메이드">머메이드</option>
+                                    <option value="투피스">투피스</option>
+                                </select>
+                            </li>
+                            <li class="margin">
+                                <select name="니트" id="니트">
+                                    <option value="니트" selected disabled>
+                                        Neat
+                                    </option>
+                                    <option value="원피스">핸드메이드</option>
+                                    <option value="블라우스">긴소매</option>
+                                    <option value="니트">반소매</option>
+                                    <option value="티셔츠">민소매</option>
+                                    <option value="스커트">반소매</option>
+                                    <option value="팬츠">가디건</option>
+                                </select>
+                            </li>
+                            <li class="margin">
+                                <select name="티셔츠" id="티셔츠">
+                                    <option value="아우터" selected disabled>
+                                        T-shirt
+                                    </option>
+                                    <option value="원피스">핸드메이드</option>
+                                    <option value="블라우스">긴소매</option>
+                                    <option value="니트">민소매</option>
+                                    <option value="티셔츠">반소매</option>
+                                    <option value="스커트">민소매</option>
+                                </select>
+                            </li>
+                            <li class="margin">
+                                <select name="blouse" id="b">
+                                    <option value="아우터" selected disabled>
+                                        Blouse/Shirt
+                                    </option>
+                                    <option value="원피스">핸드메이드</option>
+                                    <option value="블라우스">무지</option>
+                                    <option value="니트">셔츠</option>
+                                    <option value="티셔츠">민소매</option>
+                                    <option value="스커트">패턴</option>
+                                    <option value="팬츠">리본/타이</option>
+                                    <option value="언더웨어">오프숄더</option>
+                                    <option value="바캉스룩">레이스</option>
+                                </select>
+                            </li>
+                            <li class="margin">
+                                <select name="스커트" id="스커트">
+                                    <option value="아우터" selected disabled>
+                                        Skirt
+                                    </option>
+                                    <option value="원피스">핸드메이드</option>
+                                    <option value="블라우스">H라인</option>
+                                    <option value="니트">A라인</option>
+                                    <option value="티셔츠">플레어</option>
+                                    <option value="스커트">프릴</option>
+                                    <option value="팬츠">미니</option>
+                                    <option value="언더웨어">롱</option>
+                                    <option value="바캉스룩">테니스</option>
+                                </select>
+                            </li>
+                            <li class="margin">
+                                <select name="pants" id="pants">
+                                    <option selected disabled>Pants</option>
+                                    <option>쫀쫀이</option>
+                                    <option>아우라</option>
+                                    <option>단독진행</option>
+                                    <option>7~9부</option>
+                                    <option>반바지</option>
+                                    <option>큐롯</option>
+                                    <option>데님</option>
+                                    <option>코튼</option>
+                                    <option>린넨</option>
+                                    <option>슬랙스</option>
+                                    <option>스키니</option>
+                                    <option>서스펜더</option>
+                                    <option>레깅스</option>
+                                    <option>니트</option>
+                                    <option>트레이닝</option>
+                                </select>
+                            </li>
+                            <li class="margin">
+                                <span class="Go">TODAY Go🚛</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <h1 class="option-menu-title">이용안내</h1>
+        <div class="wrapper">
+            <h3>회원가입 안내</h3>
+            <p>회원가입안내</p>
+            <p>"아이거지"를 찾아주셔서 감사합니다 :)</p>
+            <p>
+                저희 "아이거지"의 모든 컨텐츠 및 서비스는 회원제를 식시하고
+                있습니다.
+            </p>
+            <p>
+                아이거지는 아이디, 비밀번호를 기입하고 가입하시면 계정생성이
+                가능합니다.
+            </p>
+            <p>
+                [회원가입] 메뉴를 통해 이용약관이나 개인정보보호정책 동의 및
+                일정 양식의 가입항목을 기입함으로써 회원에 가입되며 가입 즉시
+                서비스를 무료로 이용하실 수 있습니다.
+            </p>
+            <p>
+                주문하실 때에 이력해야하는 각종 정보들을 일일이 입력하지
+                않으셔도 됩니다.
+            </p>
+            <p>공동구매, 경매행사에 항상 참여하실 수 있습니다.</p>
+            <p>회원을 위한 이벤트 및 각종 할인행사에 참여하실 수 있습니다.</p>
+            <br />
+            <br />
+        </div>
+        <div class="wrapper">
+            <h3>주문 안내</h3>
+            <p>상품 주문은 다음 단계로 이루어집니다.</p>
+            <div>
+                <ol class="option-menu-ordered-list">
+                    <li class="option-menu-option">step1: 상품검색</li>
+                    <li class="option-menu-option">step2: 장바구니에 담기</li>
+                    <li class="option-menu-option">step3: 회원ID 로그인</li>
+                    <li class="option-menu-option">step4: 주문서 작성</li>
+                    <li class="option-menu-option">
+                        step5: 결제방법 선택 및 결제
+                    </li>
+                    <li class="option-menu-option">
+                        step6: 주문 성공 화면(주문번호)
+                    </li>
+                </ol>
+            </div>
+        </div>
+        <div class="wrapper">
+            <h3>결제 안내</h3>
+            <p class="weight">[무통장 입금]</p>
+            <p>
+                주문시 입력한 입금자명과 실제입금자의 성명이 반드시 일치하여야
+                하며, 입금하실 금액을 필히 확인해 주시기 바랍니다.
+            </p>
+            <p>
+                주문 후 3일 이내로 입금을 하셔야 하며 입금자가 동일하지 않는
+                경우 고객센터로 꼭 연락을 주셔야 처리가 가능합니다.
+            </p>
+            <p>입금되지 않은 주문은 자동취소 됩니다.</p>
+            <p>국민 468001-01-111971</p>
+            <p>농협 301-0095-6307-61</p>
+            <p>예금주: 아이거지그룹(주)</p>
+            <br />
+        </div>
+        <div></div>
+        <div class="wrapper">
+            <h3>[카드결제]</h3>
+            <p class="weight">
+                카드결제 후 부분취소를 원하실 경우 고객센터로 꼭 연락을 주셔야
+                합니다.
+            </p>
+            <p>
+                부분적인 취소는 불가능 하며, 취소하실 상품을 제외한 나머지
+                상품에 대해 재결제 해주셔야 합니다.
+            </p>
+            <p>
+                취소하신 상품에 대해서는 현금환불이 불가능하며 적립금으로
+                대체하여 사용하실 수 있습니다.
+            </p>
+            <br />
+        </div>
+        <div class="wrapper">
+            <h3>[핸드폰 결제]</h3>
+            <p>핸드폰 인증으로 간단히 소액결제를 이용 하실 수 있습니다.</p>
+            <br />
+            <p>결제 취소 가능일</p>
+            <p>결제 취소는 졀제하신 당월 1일~말일 이내에 취소가 가능합니다.</p>
+            <p>말일 이후에는 취소가 불가하니 신중한 구매 부탁드려요.</p>
+            <br />
+            <p>당월이 지나 취소가 불가피할 경우</p>
+            <p>
+                현금으로 환불을 원할시 고객센터(010-5805-1641) 카카오 상담 톡
+                등으로 연락 부탁드립니다.
+            </p>
+            <p>또한, 예치금으로 적립도 가능합니다.</p>
+            <br />
+            <p>부분 취소 불가</p>
+            <p>
+                모바일 소액결제는 부분취소가 불가, 전체 취소만 가능하니 이 점
+                양해 부탁드립니다.
+            </p>
+            <br />
+        </div>
+        <div class="wrapper">
+            <h3>배송 안내</h3>
+            <p>배송 업체 : cj 대한통운 택배</p>
+            <p>배송 지역 : 전국 지역</p>
+            <p>배송 비용 : 3,500원(50,000원 이상 구매 시 무료배송)</p>
+            <p>배송 기간 : 1일~7일</p>
+            <p>도서산간비</p>
+            <p>제주도 : 3,000원</p>
+            <p>기타도서산간지역 : 4,000원</p>
+            <br />
+        </div>
+        <div class="flex-row up-border small-font">
+            <ul class="flex-row margin-zero no-list-style">
+                <li class="margin">
+                    <a href="이용안내.html">이용안내</a>
+                </li>
+                /
+                <li class="margin">
+                    <a href="이용약관.html">이용약관</a>
+                </li>
+                /
+                <li class="margin">
+                    <a href="개인정보처리방침.html"> 개인정보처리방침 </a>
+                </li>
+                /
+                <li class="margin">
+                    <a href="파트너쉽.html"> 파트너쉽 </a>
+                </li>
+                /
+                <li class="margin">
+                    <a href="멤버쉽.html"> 멤버쉽 </a>
+                </li>
+                /
+                <li class="margin">
+                    <a href="리크루트.html"> 리크루트 </a>
+                </li>
+                /
+                <li class="margin">
+                    <a href="모바일버전.html"> 모바일버전 </a>
+                </li>
+            </ul>
+            <div>
+                <div class="full-name-logo">IG FASHION.CO.LTD Info</div>
+            </div>
+        </div>
+    </body>
 </html>
