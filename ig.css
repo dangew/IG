@@ -1,356 +1,356 @@
 body {
-  margin: 0;
+    margin: 0;
 }
 
 .vertical-box {
-  display: flex;
-  flex-direction: column;
-  align-items: left;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
 }
 .horizontal-box {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
 }
 .footer-section {
-  width: 100%;
-  position: absolute;
-  /* bottom: 0; */
+    width: 100%;
+    position: absolute;
+    /* bottom: 0; */
 }
 .footer-layer2 {
-  height: 100px;
-  font-size: 11px;
+    height: 100px;
+    font-size: 11px;
 }
 .footer-layer3 {
-  width: 100%;
-  background-color: #333;
-  color: #888;
-  font-size: 11px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+    width: 100%;
+    background-color: #333;
+    color: #888;
+    font-size: 11px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 /* ------------------------경민------------------------ */
 .top-line {
-  width: 100%;
-  height: 5px;
-  border: none;
-  background-color: rgb(83, 76, 76);
-  margin: 0;
+    width: 100%;
+    height: 5px;
+    border: none;
+    background-color: rgb(83, 76, 76);
+    margin: 0;
 }
 .logo {
-  height: 100px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .image-box {
-  overflow: hidden;
-  margin: 0 auto;
-  width: 15vw;
+    overflow: hidden;
+    margin: 0 auto;
+    width: 15vw;
 }
 
 .image-box-for-icon {
-  width: 24px;
-  height: 24px;
-  margin: 0 auto;
+    width: 25%;
+    height: 25%;
+    margin: 0 auto;
 }
 
 .img {
-  width: 100%;
-  height: 100%;
-  /* object-fit: cover; */
+    width: 100%;
+    height: 100%;
+    /* object-fit: cover; */
 }
 
 #registration {
-  display: flex;
-  color: white;
-  padding: 0.5% 1%;
-  font-size: medium;
-  font-weight: bold;
-  align-items: center;
-  justify-content: right;
-  background-color: #e8e6d1;
-  flood-color: rgb(95, 94, 95);
+    display: flex;
+    color: white;
+    padding: 0.5% 1%;
+    font-size: medium;
+    font-weight: bold;
+    align-items: center;
+    justify-content: right;
+    background-color: #e8e6d1;
+    flood-color: rgb(95, 94, 95);
 }
 #login:hover {
-  cursor: pointer;
-  color: rgb(106, 97, 97);
+    cursor: pointer;
+    color: rgb(106, 97, 97);
 }
 
 #logo {
-  width: 100%;
-  height: auto;
+    width: 100%;
+    height: auto;
 }
 
 .cart {
-  width: 100%;
-  height: 100%;
+    width: 100%;
+    height: 100%;
 }
 
 .myPage {
-  width: 100%;
-  height: 100%;
+    width: 100%;
+    height: 100%;
 }
 
 .rights {
-  width: 7vw;
-  display: flex;
-  flex-direction: row;
-  position: absolute;
+    width: 7vw;
+    display: flex;
+    flex-direction: row;
+    position: absolute;
 
-  right: 1vw;
-  top: 10%;
+    /* absolute position setting */
+    right: 1vw;
 }
 
 /* ------------------------태희------------------------ */
 #member:hover {
-  cursor: pointer;
-  color: rgb(106, 97, 97);
+    cursor: pointer;
+    color: rgb(106, 97, 97);
 }
 
 #menubar .field {
-  margin: 0;
-  padding: 0;
-  font-style: normal;
-  list-style: square;
-  text-align: center;
-  font-family: fantasy;
-  background-color: pink;
-  border-top: 1px white dotted;
+    margin: 0;
+    padding: 0;
+    font-style: normal;
+    list-style: square;
+    text-align: center;
+    font-family: fantasy;
+    background-color: pink;
+    border-top: 1px white dotted;
 }
 
 #menubar .background {
-  overflow: hidden;
-  background-size: cover;
-  background-image: url(./images/옷사진.jpg);
+    overflow: hidden;
+    background-size: cover;
+    background-image: url(./images/옷사진.jpg);
 }
 
 #menubar h1 {
-  color: brown;
-  text-align: left;
-  font-family: fantasy;
+    color: brown;
+    text-align: left;
+    font-family: fantasy;
 }
 
 #menubar .ig {
-  display: flex;
-  color: white;
-  overflow-x: auto;
-  padding: 1em 1em;
-  font-family: fantasy;
+    display: flex;
+    color: white;
+    overflow-x: auto;
+    padding: 1em 1em;
+    font-family: fantasy;
 }
 
 #menubar ul {
-  margin: 0;
-  list-style-type: none;
+    margin: 0;
+    list-style-type: none;
 }
 
 #menubar select {
-  background-color: transparent;
-  padding: 1px;
-  font-size: 16px;
-  color: black;
-  font-family: fantasy;
-  content: icon;
-  text-align: center;
-  border: 0px;
-  background-color: burlywood;
+    background-color: transparent;
+    padding: 1px;
+    font-size: 16px;
+    color: black;
+    font-family: fantasy;
+    content: icon;
+    text-align: center;
+    border: 0px;
+    background-color: burlywood;
 }
 
 #menubar option {
-  font-family: fantasy;
-  text-align: center;
-  color: brown;
+    font-family: fantasy;
+    text-align: center;
+    color: brown;
 }
 
 #menubar .Go {
-  color: black;
-  font-family: fantasy;
+    color: black;
+    font-family: fantasy;
 }
 
 #menubar .p {
-  font-family: fantasy;
-  text-align: center;
+    font-family: fantasy;
+    text-align: center;
 }
 
 #menubar .q {
-  font-family: fantasy;
-  font-size: 12px;
-  text-align: center;
+    font-family: fantasy;
+    font-size: 12px;
+    text-align: center;
 }
 
 #menubar .clothes {
-  color: brown;
-  display: flex;
+    color: brown;
+    display: flex;
 }
 
 #menubar .g {
-  font-family: fantasy;
-  text-align: center;
+    font-family: fantasy;
+    text-align: center;
 }
 
 #menubar .l {
-  font-size: large;
-  font-weight: bold;
-  color: black;
+    font-size: large;
+    font-weight: bold;
+    color: black;
 }
 
 #menubar .k {
-  color: grey;
-  font-family: fantasy;
-  width: 10vw;
+    color: grey;
+    font-family: fantasy;
+    width: 10vw;
 }
 
 /* ---------------------상품 제목--------------------- */
 
 #menubar .product-title {
-  text-align: center;
+    text-align: center;
 }
 
 #menubar .product-title > a:link {
-  color: black;
-  text-decoration: none;
+    color: black;
+    text-decoration: none;
 }
 
 #menubar .product-title > a:visited {
-  color: black;
+    color: black;
 }
 
 #menubar .product-title > a:hover {
-  animation-name: rainbowLoop;
-  animation-duration: 6s;
-  animation-fill-mode: forwards;
-  animation-iteration-count: infinite;
+    animation-name: rainbowLoop;
+    animation-duration: 6s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
 }
 /* -------------------------------------------------- */
 
 .up-border {
-  border-top: 1px solid lightgray;
+    border-top: 1px solid lightgray;
 }
 
 .flex-row {
-  width: 100%;
-  display: flex;
-  flex-direction: row;
-  justify-content: center; /* 수평 중앙 정렬 */
-  align-items: center; /* 수직 중앙 정렬 (필요시 추가) */
-  text-align: center;
-  margin: 0 auto;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center; /* 수평 중앙 정렬 */
+    align-items: center; /* 수직 중앙 정렬 (필요시 추가) */
+    text-align: center;
+    margin: 0 auto;
 }
 
 .margin-zero {
-  margin: 0 0 0 0;
+    margin: 0 0 0 0;
 }
 
 .margin {
-  margin: 5px;
+    margin: 5px;
 }
 
 .delivery-notice {
-  font-weight: bold;
-  text-align: center;
-  animation-name: rainbowLoop, zoomInAndOutLoop;
-  animation-duration: 6s;
-  animation-fill-mode: forwards;
-  animation-iteration-count: infinite;
+    font-weight: bold;
+    text-align: center;
+    animation-name: rainbowLoop, zoomInAndOutLoop;
+    animation-duration: 6s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
 }
 
 .small-font {
-  font-size: small;
+    font-size: small;
 }
 
 /* ---------------------애니메이션--------------------- */
 @keyframes rainbowLoop {
-  0% {
-    color: red;
-  }
-  16.6% {
-    color: orange;
-  }
-  33.3% {
-    color: yellow;
-  }
-  50% {
-    color: green;
-  }
-  66.6% {
-    color: blue;
-  }
-  83.3% {
-    color: violet;
-  }
-  100% {
-    color: red;
-  }
+    0% {
+        color: red;
+    }
+    16.6% {
+        color: orange;
+    }
+    33.3% {
+        color: yellow;
+    }
+    50% {
+        color: green;
+    }
+    66.6% {
+        color: blue;
+    }
+    83.3% {
+        color: violet;
+    }
+    100% {
+        color: red;
+    }
 }
 
 @keyframes zoomInAndOutLoop {
-  0% {
-    font-size: 25px;
-  }
-  16.6% {
-    font-size: 15px;
-  }
-  33.3% {
-    font-size: 25px;
-  }
-  50% {
-    font-size: 15px;
-  }
-  66.6% {
-    font-size: 25px;
-  }
-  83.3% {
-    font-size: 15px;
-  }
-  100% {
-    font-size: 25px;
-  }
+    0% {
+        font-size: 25px;
+    }
+    16.6% {
+        font-size: 15px;
+    }
+    33.3% {
+        font-size: 25px;
+    }
+    50% {
+        font-size: 15px;
+    }
+    66.6% {
+        font-size: 25px;
+    }
+    83.3% {
+        font-size: 15px;
+    }
+    100% {
+        font-size: 25px;
+    }
 }
 /* --------------------------------------------------- */
 
 .fixed-box {
-  margin: 16px 0;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 20px;
+    margin: 16px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 20px;
 }
 
 .option-menu-title {
-  text-align: center;
+    text-align: center;
 }
 
 .option-menu-ordered-list {
-  list-style: "- ";
+    list-style: "- ";
 }
 
 .option-menu-option {
-  position: relative;
+    position: relative;
 }
 
 .weight {
-  font-weight: 400px;
+    font-weight: 400px;
 }
 
 .wrapper {
-  border-top: 1px solid black;
-  margin: 0 3vw;
+    border-top: 1px solid black;
+    margin: 0 3vw;
 }
 
 .no-list-style {
-  list-style: none;
+    list-style: none;
 }
 
 .normal-height {
-  height: 60vh;
+    height: 60vh;
 }
 .short-height {
-  height: 30vh;
+    height: 30vh;
 }
 
 .full-name-logo {
-  color: grey;
-  font-family: fantasy;
-  width: 10vw;
+    color: grey;
+    font-family: fantasy;
+    width: 10vw;
 }
