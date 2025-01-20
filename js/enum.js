@@ -102,6 +102,14 @@ export const CATEGORY_OF_MENU = {
         OFFSHOULDER: "오프숄더",
         LACE: "레이스",
     },
+    CATEGORY_SKIRT: {
+        HANDMADE: "핸드메이드",
+        H_LINE: "H라인",
+        A_LINE: "A라인",
+        MINI: "미니",
+        LONG: "롱",
+        TENNIS: "테니스",
+    },
     CATEGORY_PANTS: {
         AURA: "아우라",
         SHORTS: "반바지",
