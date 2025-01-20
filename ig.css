@@ -120,12 +120,6 @@ body {
   border-top: 1px white dotted;
 }
 
-#menubar .background {
-  overflow: hidden;
-  background-size: cover;
-  background-image: url(./images/옷사진.jpg);
-}
-
 #menubar h1 {
   color: brown;
   text-align: left;
@@ -353,4 +347,32 @@ body {
   color: grey;
   font-family: fantasy;
   width: 10vw;
+}
+* {
+  margin: 0;
+  padding: 0;
+  border: 1px solid black;
+}
+
+.slidewrap {
+  width: 100%; /* 전체 화면 너비 */
+  position: relative;
+  overflow: hidden; /* 슬라이드 영역 밖으로 나가지 않도록 */
+}
+
+.slides {
+  display: flex; /* 슬라이드를 가로로 배치 */
+  transition: transform 1s ease; /* 슬라이드 이동 시 부드러운 전환 */
+}
+
+.slide {
+  width: 100vw; /* 각 슬라이드가 화면 너비의 100% 차지 */
+  height: 539px; /* 슬라이드 높이 설정 */
+  flex-shrink: 0; /* 슬라이드가 크기를 줄이지 않도록 설정 */
+}
+
+img {
+  width: 98%; /* 이미지를 슬라이드 크기만큼 채우도록 설정 */
+  height: 500px; /* 이미지의 높이를 슬라이드 높이에 맞게 설정 */
+  object-fit: contain; /* 이미지 비율을 유지하면서 크기에 맞게 채우기 */
 }
