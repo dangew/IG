@@ -1,86 +1,84 @@
-body {
+* {
     margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-.vertical-box {
-    display: flex;
-    flex-direction: column;
-    align-items: left;
-}
-.horizontal-box {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-}
-.footer-section {
+/* ------------------------경민(헤더)------------------------ */
+header {
     width: 100%;
-    position: absolute;
-    /* bottom: 0; */
+    z-index: 1;
+    background-color: white;
+    position: sticky;
+    top: 0px;
 }
-.footer-layer2 {
-    height: 100px;
-    font-size: 11px;
-}
-.footer-layer3 {
-    width: 100%;
-    background-color: #333;
-    color: #888;
-    font-size: 11px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-/* ------------------------경민------------------------ */
+
 .top-line {
     width: 100%;
     height: 5px;
     border: none;
     background-color: rgb(83, 76, 76);
-    margin: 0;
-}
-.logo {
-    height: 10vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.image-box {
-    overflow: hidden;
-    margin: 0 auto;
-    width: 15vw;
 }
 
-.image-box-for-icon {
-    width: 25%;
-    height: 25%;
+.logo {
+    width: 10rem;
+    display: flex;
+    max-height: 4rem;
+    max-width: 10rem;
     margin: 0 auto;
+    align-items: center;
+    /* justify-content: center; */
+}
+
+.image-box {
+    width: inherit;
+    height: inherit;
+}
+
+/* .image-box a {width: 15rem;
+    height: 15rem;
+    margin: 0 auto;
+} */
+
+/* .image-box image {width: inherit;
+    height: inherit;
+} */
+
+.image-box-for-icon {
+    width: 1.5rem;
+    height: 1.5rem;
 }
 
 .img {
     width: 100%;
     height: 100%;
-    /* object-fit: cover; */
 }
 
 #registration {
     display: flex;
-    color: white;
-    padding: 0.5% 1%;
-    font-size: medium;
-    font-weight: bold;
     align-items: center;
     justify-content: right;
-    background-color: #e8e6d1;
+
     flood-color: rgb(95, 94, 95);
-}
-#login:hover {
-    cursor: pointer;
-    color: rgb(106, 97, 97);
+    background-color: #e8e6d1;
 }
 
-#logo {
-    width: 100%;
-    height: auto;
+#registration li {
+    margin: 0.3rem 0.5rem;
+    list-style: none;
+}
+
+#registration button {
+    background: transparent;
+    border: 0;
+    font-size: 1rem;
+    font-weight: bold;
+    color: #333333;
+}
+
+#registration button:hover {
+    cursor: pointer;
+    color: rgb(106, 97, 97);
 }
 
 .cart {
@@ -94,13 +92,61 @@ body {
 }
 
 .rights {
-    width: 7vw;
+    display: flex;
+    position: absolute;
+    right: 0;
+    margin: 1rem;
+}
+
+.rights li {
+    list-style: none;
+    margin: 0 0.5rem;
+}
+
+.rights button {
+    background: transparent;
+    border: 0;
+    font-size: 1rem;
+    font-weight: bold;
+    color: #333333;
+}
+
+/* ------------------------end of 경민------------------------ */
+body {
+    margin: 0;
+}
+
+.vertical-box {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+}
+
+.horizontal-box {
     display: flex;
     flex-direction: row;
-    position: absolute;
+    justify-content: center;
+}
 
-    /* absolute position setting */
-    right: 1vw;
+.footer-section {
+    width: 100%;
+    position: absolute;
+    /* bottom: 0; */
+}
+
+.footer-layer2 {
+    height: 100px;
+    font-size: 11px;
+}
+
+.footer-layer3 {
+    width: 100%;
+    background-color: #333;
+    color: #888;
+    font-size: 11px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 /* ------------------------태희------------------------ */
@@ -123,7 +169,7 @@ body {
 #menubar .background {
     overflow: hidden;
     background-size: cover;
-    background-image: url(./images/옷사진.jpg);
+    background-image: url(../images/옷사진.jpg);
 }
 
 #menubar h1 {
@@ -168,7 +214,7 @@ body {
     font-family: fantasy;
 }
 
-#menubar .p {
+/* #menubar .p {
     font-family: fantasy;
     text-align: center;
 }
@@ -177,7 +223,7 @@ body {
     font-family: fantasy;
     font-size: 12px;
     text-align: center;
-}
+} */
 
 .clothes {
     display: flex;
@@ -188,7 +234,7 @@ body {
     width: 20%;
 }
 
-/* img 파일은 img-box에 담을 것 -> 모든 이미지 공통 사항 이라 element style 지정정 */
+/* img 파일은 img-box에 담을 것 -> 모든 이미지 공통 사항 이라 element style 지정 */
 img {
     width: 100%;
 }
@@ -210,27 +256,45 @@ img {
     width: 10vw;
 }
 
+/* 텍스트 박스 */
+.text-box {
+    margin: 1rem auto;
+    font-family: fantasy;
+    text-align: center;
+    font-size: 12px;
+}
+
+.text-box strong {
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+
+.text-box p {
+    margin: 0.5rem;
+}
+
 /* ---------------------상품 제목--------------------- */
 
 #menubar .product-title {
     text-align: center;
 }
 
-#menubar .product-title > a:link {
+#menubar .product-title>a:link {
     color: black;
     text-decoration: none;
 }
 
-#menubar .product-title > a:visited {
+#menubar .product-title>a:visited {
     color: black;
 }
 
-#menubar .product-title > a:hover {
+#menubar .product-title>a:hover {
     animation-name: rainbowLoop;
     animation-duration: 6s;
     animation-fill-mode: forwards;
     animation-iteration-count: infinite;
 }
+
 /* -------------------------------------------------- */
 
 .up-border {
@@ -241,8 +305,10 @@ img {
     width: 100%;
     display: flex;
     flex-direction: row;
-    justify-content: center; /* 수평 중앙 정렬 */
-    align-items: center; /* 수직 중앙 정렬 (필요시 추가) */
+    justify-content: center;
+    /* 수평 중앙 정렬 */
+    align-items: center;
+    /* 수직 중앙 정렬 (필요시 추가) */
     text-align: center;
     margin: 0 auto;
 }
@@ -273,21 +339,27 @@ img {
     0% {
         color: red;
     }
+
     16.6% {
         color: orange;
     }
+
     33.3% {
         color: yellow;
     }
+
     50% {
         color: green;
     }
+
     66.6% {
         color: blue;
     }
+
     83.3% {
         color: violet;
     }
+
     100% {
         color: red;
     }
@@ -297,25 +369,32 @@ img {
     0% {
         font-size: 25px;
     }
+
     16.6% {
         font-size: 15px;
     }
+
     33.3% {
         font-size: 25px;
     }
+
     50% {
         font-size: 15px;
     }
+
     66.6% {
         font-size: 25px;
     }
+
     83.3% {
         font-size: 15px;
     }
+
     100% {
         font-size: 25px;
     }
 }
+
 /* --------------------------------------------------- */
 
 .fixed-box {
@@ -354,6 +433,7 @@ img {
 .normal-height {
     height: 60vh;
 }
+
 .short-height {
     height: 30vh;
 }
