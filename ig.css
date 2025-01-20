@@ -1,5 +1,7 @@
 body {
   margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 .vertical-box {
@@ -377,7 +379,7 @@ body {
 * {
   margin: 0;
   padding: 0;
-  border: 1px solid black;
+  /* border: 1px solid black; => border 삭제 */
 }
 
 .slidewrap {
