@@ -7,20 +7,24 @@ body {
   flex-direction: column;
   align-items: left;
 }
+
 .horizontal-box {
   display: flex;
   flex-direction: row;
   justify-content: center;
 }
+
 .footer-section {
   width: 100%;
   position: absolute;
   /* bottom: 0; */
 }
+
 .footer-layer2 {
   height: 100px;
   font-size: 11px;
 }
+
 .footer-layer3 {
   width: 100%;
   background-color: #333;
@@ -30,6 +34,7 @@ body {
   justify-content: center;
   align-items: center;
 }
+
 /* ------------------------경민------------------------ */
 .top-line {
   width: 100%;
@@ -38,12 +43,14 @@ body {
   background-color: rgb(83, 76, 76);
   margin: 0;
 }
+
 .logo {
   height: 100px;
   display: flex;
   justify-content: center;
   align-items: center;
 }
+
 .image-box {
   overflow: hidden;
   margin: 0 auto;
@@ -73,6 +80,7 @@ body {
   background-color: #e8e6d1;
   flood-color: rgb(95, 94, 95);
 }
+
 #login:hover {
   cursor: pointer;
   color: rgb(106, 97, 97);
@@ -201,21 +209,22 @@ body {
   text-align: center;
 }
 
-#menubar .product-title > a:link {
+#menubar .product-title>a:link {
   color: black;
   text-decoration: none;
 }
 
-#menubar .product-title > a:visited {
+#menubar .product-title>a:visited {
   color: black;
 }
 
-#menubar .product-title > a:hover {
+#menubar .product-title>a:hover {
   animation-name: rainbowLoop;
   animation-duration: 6s;
   animation-fill-mode: forwards;
   animation-iteration-count: infinite;
 }
+
 /* -------------------------------------------------- */
 
 .up-border {
@@ -226,8 +235,10 @@ body {
   width: 100%;
   display: flex;
   flex-direction: row;
-  justify-content: center; /* 수평 중앙 정렬 */
-  align-items: center; /* 수직 중앙 정렬 (필요시 추가) */
+  justify-content: center;
+  /* 수평 중앙 정렬 */
+  align-items: center;
+  /* 수직 중앙 정렬 (필요시 추가) */
   text-align: center;
   margin: 0 auto;
 }
@@ -258,21 +269,27 @@ body {
   0% {
     color: red;
   }
+
   16.6% {
     color: orange;
   }
+
   33.3% {
     color: yellow;
   }
+
   50% {
     color: green;
   }
+
   66.6% {
     color: blue;
   }
+
   83.3% {
     color: violet;
   }
+
   100% {
     color: red;
   }
@@ -282,25 +299,32 @@ body {
   0% {
     font-size: 25px;
   }
+
   16.6% {
     font-size: 15px;
   }
+
   33.3% {
     font-size: 25px;
   }
+
   50% {
     font-size: 15px;
   }
+
   66.6% {
     font-size: 25px;
   }
+
   83.3% {
     font-size: 15px;
   }
+
   100% {
     font-size: 25px;
   }
 }
+
 /* --------------------------------------------------- */
 
 .fixed-box {
@@ -339,6 +363,7 @@ body {
 .normal-height {
   height: 60vh;
 }
+
 .short-height {
   height: 30vh;
 }
@@ -348,6 +373,7 @@ body {
   font-family: fantasy;
   width: 10vw;
 }
+
 * {
   margin: 0;
   padding: 0;
@@ -355,24 +381,34 @@ body {
 }
 
 .slidewrap {
-  width: 100%; /* 전체 화면 너비 */
+  width: 100%;
+  /* 전체 화면 너비 */
   position: relative;
-  overflow: hidden; /* 슬라이드 영역 밖으로 나가지 않도록 */
+  overflow: hidden;
+  /* 슬라이드 영역 밖으로 나가지 않도록 */
 }
 
 .slides {
-  display: flex; /* 슬라이드를 가로로 배치 */
-  transition: transform 1s ease; /* 슬라이드 이동 시 부드러운 전환 */
+  display: flex;
+  /* 슬라이드를 가로로 배치 */
+  transition: transform 1s ease;
+  /* 슬라이드 이동 시 부드러운 전환 */
 }
 
 .slide {
-  width: 100vw; /* 각 슬라이드가 화면 너비의 100% 차지 */
-  height: 539px; /* 슬라이드 높이 설정 */
-  flex-shrink: 0; /* 슬라이드가 크기를 줄이지 않도록 설정 */
+  width: 100vw;
+  /* 각 슬라이드가 화면 너비의 100% 차지 */
+  height: 539px;
+  /* 슬라이드 높이 설정 */
+  flex-shrink: 0;
+  /* 슬라이드가 크기를 줄이지 않도록 설정 */
 }
 
 img {
-  width: 98%; /* 이미지를 슬라이드 크기만큼 채우도록 설정 */
-  height: 500px; /* 이미지의 높이를 슬라이드 높이에 맞게 설정 */
-  object-fit: contain; /* 이미지 비율을 유지하면서 크기에 맞게 채우기 */
+  width: 98%;
+  /* 이미지를 슬라이드 크기만큼 채우도록 설정 */
+  height: 500px;
+  /* 이미지의 높이를 슬라이드 높이에 맞게 설정 */
+  object-fit: contain;
+  /* 이미지 비율을 유지하면서 크기에 맞게 채우기 */
 }
