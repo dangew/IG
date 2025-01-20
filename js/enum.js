@@ -18,10 +18,10 @@ export const MENU_CATEGORY = {
 export const CATEGORY_OF_MENU = {
     CATEGORY_NEW: {
         OUTER: "아우터",
-        ONPIECE: "원피스",
+        ONEPIECE: "원피스",
         BLOUSE: "블라우스",
         KNIT: "니트",
-        T_SHIRT: "티셔츠",
+        TSHIRT: "티셔츠",
         SKIRT: "스커트",
         PANTS: "팬츠",
         UNDERWEAR: "언더웨어",
@@ -30,7 +30,7 @@ export const CATEGORY_OF_MENU = {
 
     CATEGORY_BEST: {
         OUTER: "아우터",
-        ONPIECE: "원피스",
+        ONEPIECE: "원피스",
         BLOUSE: "블라우스",
         KNIT: "니트",
         T_SHIRT: "티셔츠",
