@@ -1,170 +1,170 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 /* ========================경민(헤더)======================== */
 header {
-    width: 100%;
-    z-index: 1;
-    background-color: white;
-    position: sticky;
-    top: 0px;
+  width: 100%;
+  z-index: 1;
+  background-color: white;
+  position: sticky;
+  top: 0px;
 }
 
 .top-line {
-    width: 100%;
-    height: 5px;
-    border: none;
-    background-color: rgb(83, 76, 76);
+  width: 100%;
+  height: 5px;
+  border: none;
+  background-color: rgb(83, 76, 76);
 }
 
 .logo {
-    width: 10rem;
-    display: flex;
-    max-height: 4rem;
-    max-width: 10rem;
-    margin: 0 auto;
-    align-items: center;
+  width: 10rem;
+  display: flex;
+  max-height: 4rem;
+  max-width: 10rem;
+  margin: 0 auto;
+  align-items: center;
 }
 
 .image-box {
-    width: inherit;
-    height: inherit;
+  width: inherit;
+  height: inherit;
 }
 
 .image-box img {
-    width: 100%;
+  width: 100%;
 }
 
 .image-box-for-icon {
-    width: 1.5rem;
-    height: 1.5rem;
+  width: 1.5rem;
+  height: 1.5rem;
 }
 
 .img {
-    width: 100%;
-    height: 100%;
+  width: 100%;
+  height: 100%;
 }
 
 #registration {
-    display: flex;
-    align-items: center;
-    justify-content: right;
+  display: flex;
+  align-items: center;
+  justify-content: right;
 
-    flood-color: rgb(95, 94, 95);
-    background-color: #e8e6d1;
+  flood-color: rgb(95, 94, 95);
+  background-color: #e8e6d1;
 }
 
 #registration li {
-    margin: 0.3rem 0.5rem;
-    list-style: none;
+  margin: 0.3rem 0.5rem;
+  list-style: none;
 }
 
 #registration button {
-    background: transparent;
-    border: 0;
-    font-size: 1rem;
-    font-weight: bold;
-    color: #333333;
+  background: transparent;
+  border: 0;
+  font-size: 1rem;
+  font-weight: bold;
+  color: #333333;
 }
 
 #registration button:hover {
-    cursor: pointer;
-    color: rgb(106, 97, 97);
+  cursor: pointer;
+  color: rgb(106, 97, 97);
 }
 
 .cart {
-    width: 100%;
-    height: 100%;
+  width: 100%;
+  height: 100%;
 }
 
 .myPage {
-    width: 100%;
-    height: 100%;
+  width: 100%;
+  height: 100%;
 }
 
 .rights {
-    display: flex;
-    position: absolute;
-    right: 0;
-    margin: 0.5rem;
-    align-items: center;
+  display: flex;
+  position: absolute;
+  right: 0;
+  margin: 0.5rem;
+  align-items: center;
 }
 
 .rights li {
-    list-style: none;
-    margin: 0 0.4rem;
+  list-style: none;
+  margin: 0 0.4rem;
 }
 
 .rights button {
-    background: transparent;
-    border: 0;
-    font-size: 1rem;
-    font-weight: bold;
-    text-align: center;
-    color: #333333;
+  background: transparent;
+  border: 0;
+  font-size: 1rem;
+  font-weight: bold;
+  text-align: center;
+  color: #333333;
 }
 
 .rights button:hover {
-    cursor: pointer;
-    color: rgb(106, 97, 97);
+  cursor: pointer;
+  color: rgb(106, 97, 97);
 }
 
 /* ========================end of 경민======================== */
 
 body {
-    margin: 0;
+  margin: 0;
 }
 
 .vertical-box {
-    display: flex;
-    flex-direction: column;
-    align-items: left;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
 }
 
 .horizontal-box {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
 }
 
 .footer-section {
-    width: 100%;
-    position: absolute;
-    /* bottom: 0; */
+  width: 100%;
+  position: absolute;
+  /* bottom: 0; */
 }
 
 .footer-layer2 {
-    height: 100px;
-    font-size: 11px;
+  height: 100px;
+  font-size: 11px;
 }
 
 .footer-layer3 {
-    width: 100%;
-    background-color: #333;
-    color: #888;
-    font-size: 11px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  width: 100%;
+  background-color: #333;
+  color: #888;
+  font-size: 11px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 /* ========================태희======================== */
 #member:hover {
-    cursor: pointer;
-    color: rgb(106, 97, 97);
+  cursor: pointer;
+  color: rgb(106, 97, 97);
 }
 
 #menubar .field {
-    margin: 0;
-    padding: 0;
-    font-style: normal;
-    list-style: square;
-    text-align: center;
-    font-family: fantasy;
-    border-top: 1px white dotted;
+  margin: 0;
+  padding: 0;
+  font-style: normal;
+  list-style: square;
+  text-align: center;
+  font-family: fantasy;
+  border-top: 1px white dotted;
 }
 
 /* #menubar .background {overflow: hidden;
@@ -173,45 +173,45 @@ body {
 } */
 
 #menubar h1 {
-    color: brown;
-    text-align: left;
-    font-family: fantasy;
+  color: brown;
+  text-align: left;
+  font-family: fantasy;
 }
 
 #menubar .ig {
-    display: flex;
-    color: white;
-    overflow-x: auto;
-    padding: 1em 1em;
-    font-family: fantasy;
+  display: flex;
+  color: white;
+  overflow-x: auto;
+  padding: 1em 1em;
+  font-family: fantasy;
 }
 
 #menubar ul {
-    margin: 0;
-    list-style-type: none;
+  margin: 0;
+  list-style-type: none;
 }
 
 #menubar select {
-    background-color: transparent;
-    padding: 1px;
-    font-size: 16px;
-    color: black;
-    font-family: fantasy;
-    content: icon;
-    text-align: center;
-    border: 0px;
-    background-color: burlywood;
+  background-color: transparent;
+  padding: 1px;
+  font-size: 16px;
+  color: black;
+  font-family: fantasy;
+  content: icon;
+  text-align: center;
+  border: 0px;
+  background-color: burlywood;
 }
 
 #menubar option {
-    font-family: fantasy;
-    text-align: center;
-    color: brown;
+  font-family: fantasy;
+  text-align: center;
+  color: brown;
 }
 
 #menubar .Go {
-    color: black;
-    font-family: fantasy;
+  color: black;
+  font-family: fantasy;
 }
 
 .clothes {
@@ -247,8 +247,8 @@ body {
 } */
 
 #menubar .g {
-    font-family: fantasy;
-    text-align: center;
+  font-family: fantasy;
+  text-align: center;
 }
 
 .search-box {
@@ -263,60 +263,60 @@ body {
 }
 
 #menubar .l {
-    font-size: large;
-    font-weight: bold;
-    color: black;
+  font-size: large;
+  font-weight: bold;
+  color: black;
 }
 
 #menubar .k {
-    color: grey;
-    font-family: fantasy;
-    width: 10vw;
+  color: grey;
+  font-family: fantasy;
+  width: 10vw;
 }
 
 /* 텍스트 박스 */
 .text-box {
-    margin: 1rem auto;
-    font-family: fantasy;
-    text-align: center;
-    font-size: 12px;
+  margin: 1rem auto;
+  font-family: fantasy;
+  text-align: center;
+  font-size: 12px;
 }
 
 .text-box strong {
-    font-size: 20px;
-    letter-spacing: 1px;
+  font-size: 20px;
+  letter-spacing: 1px;
 }
 
 .text-box p {
-    margin: 0.5rem;
+  margin: 0.5rem;
 }
 
 /* ========================상품 제목======================== */
 
 #menubar .product-title {
-    text-align: center;
+  text-align: center;
 }
 
-#menubar .product-title>a:link {
-    color: black;
-    text-decoration: none;
+#menubar .product-title > a:link {
+  color: black;
+  text-decoration: none;
 }
 
-#menubar .product-title>a:visited {
-    color: black;
+#menubar .product-title > a:visited {
+  color: black;
 }
 
-#menubar .product-title>a:hover {
-    animation-name: rainbowLoop;
-    animation-duration: 6s;
-    animation-fill-mode: forwards;
-    animation-iteration-count: infinite;
+#menubar .product-title > a:hover {
+  animation-name: rainbowLoop;
+  animation-duration: 6s;
+  animation-fill-mode: forwards;
+  animation-iteration-count: infinite;
 }
 
 /* ======================================================== */
 
 .up-border {
-    border-top: 1px solid lightgray;
+  border-top: 1px solid lightgray;
 }
 
 .flex-row {
@@ -330,20 +330,20 @@ body {
 }
 
 .margin-zero {
-    margin: 0 0 0 0;
+  margin: 0 0 0 0;
 }
 
 .margin {
-    margin: 5px;
+  margin: 5px;
 }
 
 .delivery-notice {
-    font-weight: bold;
-    text-align: center;
-    animation-name: rainbowLoop, zoomInAndOutLoop;
-    animation-duration: 6s;
-    animation-fill-mode: forwards;
-    animation-iteration-count: infinite;
+  font-weight: bold;
+  text-align: center;
+  animation-name: rainbowLoop, zoomInAndOutLoop;
+  animation-duration: 6s;
+  animation-fill-mode: forwards;
+  animation-iteration-count: infinite;
 }
 
 .small-font,
@@ -353,106 +353,106 @@ body {
 
 /* ========================애니메이션======================== */
 @keyframes rainbowLoop {
-    0% {
-        color: red;
-    }
+  0% {
+    color: red;
+  }
 
-    16.6% {
-        color: orange;
-    }
+  16.6% {
+    color: orange;
+  }
 
-    33.3% {
-        color: yellow;
-    }
+  33.3% {
+    color: yellow;
+  }
 
-    50% {
-        color: green;
-    }
+  50% {
+    color: green;
+  }
 
-    66.6% {
-        color: blue;
-    }
+  66.6% {
+    color: blue;
+  }
 
-    83.3% {
-        color: violet;
-    }
+  83.3% {
+    color: violet;
+  }
 
-    100% {
-        color: red;
-    }
+  100% {
+    color: red;
+  }
 }
 
 @keyframes zoomInAndOutLoop {
-    0% {
-        font-size: 25px;
-    }
+  0% {
+    font-size: 25px;
+  }
 
-    16.6% {
-        font-size: 15px;
-    }
+  16.6% {
+    font-size: 15px;
+  }
 
-    33.3% {
-        font-size: 25px;
-    }
+  33.3% {
+    font-size: 25px;
+  }
 
-    50% {
-        font-size: 15px;
-    }
+  50% {
+    font-size: 15px;
+  }
 
-    66.6% {
-        font-size: 25px;
-    }
+  66.6% {
+    font-size: 25px;
+  }
 
-    83.3% {
-        font-size: 15px;
-    }
+  83.3% {
+    font-size: 15px;
+  }
 
-    100% {
-        font-size: 25px;
-    }
+  100% {
+    font-size: 25px;
+  }
 }
 
 /* ================================================ */
 
 .fixed-box {
-    margin: 16px 0;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 20px;
+  margin: 16px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 20px;
 }
 
 .option-menu-title {
-    text-align: center;
+  text-align: center;
 }
 
 .option-menu-ordered-list {
-    list-style: "- ";
+  list-style: "- ";
 }
 
 .option-menu-option {
-    position: relative;
+  position: relative;
 }
 
 .weight {
-    font-weight: 400px;
+  font-weight: 400px;
 }
 
 .wrapper {
-    border-top: 1px solid black;
-    margin: 0 3vw;
+  border-top: 1px solid black;
+  margin: 0 3vw;
 }
 
 .no-list-style {
-    list-style: none;
+  list-style: none;
 }
 
 .normal-height {
-    height: 60vh;
+  height: 60vh;
 }
 
 .short-height {
-    height: 20vh;
+  height: 20vh;
 }
 
 .full-name-logo {
@@ -467,30 +467,30 @@ body {
 }
 
 .slidewrap {
-    overflow: hidden;
-    /* 슬라이드 영역 밖으로 나가지 않도록 */
+  overflow: hidden;
+  /* 슬라이드 영역 밖으로 나가지 않도록 */
 }
 
 .slides {
-    width: 100%;
+  width: 100%;
 
-    display: flex;
-    /* 슬라이드를 가로로 배치 */
-    transition: transform 1s ease;
-    /* 슬라이드 이동 시 부드러운 전환 */
-    align-items: center;
+  display: flex;
+  /* 슬라이드를 가로로 배치 */
+  transition: transform 1s ease;
+  /* 슬라이드 이동 시 부드러운 전환 */
+  align-items: center;
 }
 
 .slide {
-    width: 100%;
-    /* 각 슬라이드가 화면 너비의 100% 차지 */
-    height: 500px;
-    /* 슬라이드 높이 설정 */
-    flex-shrink: 0;
-    /* 슬라이드가 크기를 줄이지 않도록 설정 */
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  width: 100%;
+  /* 각 슬라이드가 화면 너비의 100% 차지 */
+  height: 500px;
+  /* 슬라이드 높이 설정 */
+  flex-shrink: 0;
+  /* 슬라이드가 크기를 줄이지 않도록 설정 */
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .slide img {
