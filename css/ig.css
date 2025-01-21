@@ -217,13 +217,31 @@ body {
 .clothes {
     display: flex;
     justify-content: center;
-    margin: 2rem 1rem;
+    margin: 1rem 1rem;
 }
 
 .img-box-for-items {
     display: flex;
     flex-direction: column;
     overflow: hidden;
+
+    min-width: 18vw;
+    max-width: 18vw;
+    min-height: 40vh;
+    max-height: 40vh;
+}
+
+.img-box-for-items img {
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+
+    padding: 0 0.5rem;
+
+    min-width: 18vw;
+    max-width: 18vw;
+    min-height: 37vh;
+    max-height: 37vh;
 }
 
 

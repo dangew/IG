@@ -133,5 +133,5 @@ export const PRODUCT_AND_TITLE_2 = {
     "옷사진5.jpg": "연초에도 모두 '함께'",
     "옷사진4.jpg": "The 욱 The YOUNG하게",
     "옷사진3.jpg": "연초는 바로 이 '룩'",
-    "옷사진6.jpg": "올 가을은 '이걸로'",
+    "쫀쫀.gif": "쫀쫀~~",
 };
