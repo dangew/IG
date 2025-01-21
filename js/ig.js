@@ -64,6 +64,13 @@ function setAttributes(el, attrs) {
     }
 }
 
+(() => {
+    const $searchBtn = document.querySelector("#search-button");
+    $searchBtn.addEventListener("click", () => {
+        alert("미완성 검색 버튼");
+    });
+})();
+
 slideManage();
 zoomManage();
 timerManage();
