@@ -1,4 +1,7 @@
 import { MENU_CATEGORY, CATEGORY_OF_MENU } from "./enum.js";
+import { slideManage } from "./slide.js";
+import { timerManage } from "./timer.js";
+
 // menu bar 만들기 함수(즉시 실행 함수) ====================================================
 (function () {
     for (let temp_menu in MENU_CATEGORY) {
@@ -59,3 +62,6 @@ function setAttributes(el, attrs) {
         el.setAttribute(key, attrs[key]);
     }
 }
+
+// slideManage(); // => html 수정 필요
+timerManage();
