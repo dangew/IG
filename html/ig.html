@@ -37,10 +37,11 @@
     <div id="menubar">
         <div class="field">
             <div class="slidewrap">
+                <!-- start 메뉴바 -->
                 <div class="ig">
-                    <!-- <h1>AHIGERGI</h1> -->
                     <ul id="menu-bar" class="flex-row margin"></ul>
                 </div>
+                <!-- end 메뉴바 -->
                 <div class="slides">
                     <div class="slide section1">
                         <img src="../images/sale.jpg">
@@ -75,13 +76,18 @@
             <input id="search-input" type="text" name="검색내용입력" />
             <input id="search-button" type="button" value="검색" />
         </div>
-        <div id="up-section-clothes" class="clothes"></div>
+        <div id="up-clothes-slidewrap">
+            <div id="up-section-clothes" class="clothes"></div>
+        </div>
         <div class="text-box">
             <p><strong>💙겨울에도💙</strong></p>
             <p>겨울에도 언제나 "함께"</p>
             <p>달려가겠습니다.</p>
         </div>
-        <div id="down-section-clothes" class="clothes"></div>
+        <div id="down-clothes-slidewrap">
+
+            <div id="down-section-clothes" class="clothes"></div>
+        </div>
         <div id="info-box-for-customer" class="flex-row up-border">
             <span style="flex-grow: 1">
                 <p><strong>Delivery</strong></p>
@@ -95,7 +101,7 @@
                 <p class="small-font">매주 주말 휴무</p>
             </span>
         </div>
-        <div class="flex-row up-border small-font">
+        <div id="link-box-for-customer" class="flex-row up-border small-font">
             <ul class="flex-row margin-zero">
                 <li class="margin">
                     <a href="이용안내.html">이용안내</a>
@@ -155,7 +161,7 @@
         </div>
     </div>
     <script type="module" src="../js/ig.js"></script>
-    <script src="../js/slide2.js"></script>
+    <!-- <script src="../js/slide2.js"></script> -->
 </body>
 
 </html>
