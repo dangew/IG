@@ -1,28 +1,44 @@
 * {
   margin: 0;
   padding: 0;
-  border: 1px solid black;
 }
 
 .slidewrap {
-  width: 100%; /* 전체 화면 너비 */
-  position: relative;
-  overflow: hidden; /* 슬라이드 영역 밖으로 나가지 않도록 */
+  overflow: hidden;
+  border: 1px solid black;
+  /* 슬라이드 영역 밖으로 나가지 않도록 */
 }
 
 .slides {
-  display: flex; /* 슬라이드를 가로로 배치 */
-  transition: transform 1s ease; /* 슬라이드 이동 시 부드러운 전환 */
+  display: flex;
+  /* 슬라이드를 가로로 배치 */
+  transition: transform 1s ease;
+  /* 슬라이드 이동 시 부드러운 전환 */
+  align-items: center;
+
 }
 
 .slide {
-  width: 100vw; /* 각 슬라이드가 화면 너비의 100% 차지 */
-  height: 539px; /* 슬라이드 높이 설정 */
-  flex-shrink: 0; /* 슬라이드가 크기를 줄이지 않도록 설정 */
+  width: 100%;
+  /* 각 슬라이드가 화면 너비의 100% 차지 */
+  /* width: 100vw => 100% */
+  min-height: 539px;
+  /* 슬라이드 높이 설정 */
+  flex-shrink: 0;
+  /* 슬라이드가 크기를 줄이지 않도록 설정 */
+
+
+  /* --------------------------------------------- */
+  display: flex;
+  align-items: center;
+  /* slide의 vertical center에 img가 위치하도록 수정 */
 }
 
 img {
-  width: 98%; /* 이미지를 슬라이드 크기만큼 채우도록 설정 */
-  height: 500px; /* 이미지의 높이를 슬라이드 높이에 맞게 설정 */
-  object-fit: contain; /* 이미지 비율을 유지하면서 크기에 맞게 채우기 */
+  width: 98%;
+  /* 이미지를 슬라이드 크기만큼 채우도록 설정 */
+  max-height: 500px;
+  /* 이미지의 높이를 슬라이드 높이에 맞게 설정 */
+  object-fit: contain;
+  /* 이미지 비율을 유지하면서 크기에 맞게 채우기 */
 }
