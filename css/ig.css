@@ -34,6 +34,10 @@ header {
     height: inherit;
 }
 
+.image-box img {
+    width: 100%;
+}
+
 .image-box-for-icon {
     width: 1.5rem;
     height: 1.5rem;
@@ -160,15 +164,13 @@ body {
     list-style: square;
     text-align: center;
     font-family: fantasy;
-    background-color: pink;
     border-top: 1px white dotted;
 }
 
-#menubar .background {
-    overflow: hidden;
+/* #menubar .background {overflow: hidden;
     background-size: cover;
     background-image: url(../images/옷사진.jpg);
-}
+} */
 
 #menubar h1 {
     color: brown;
@@ -222,9 +224,8 @@ body {
 }
 
 /* img 파일은 img-box에 담을 것 -> 모든 이미지 공통 사항 이라 element style 지정 */
-img {
-    width: 100%;
-}
+/* img {width: 100%;
+} */
 
 #menubar .g {
     font-family: fantasy;
@@ -429,4 +430,40 @@ img {
     color: grey;
     font-family: fantasy;
     width: 10vw;
+}
+
+.slidewrap {
+    overflow: hidden;
+    /* 슬라이드 영역 밖으로 나가지 않도록 */
+}
+
+.slides {
+    width: 100%;
+
+    display: flex;
+    /* 슬라이드를 가로로 배치 */
+    transition: transform 1s ease;
+    /* 슬라이드 이동 시 부드러운 전환 */
+    align-items: center;
+}
+
+.slide {
+    width: 100%;
+    /* 각 슬라이드가 화면 너비의 100% 차지 */
+    height: 500px;
+    /* 슬라이드 높이 설정 */
+    flex-shrink: 0;
+    /* 슬라이드가 크기를 줄이지 않도록 설정 */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.slide img {
+    /* width: 100%; */
+    /* 이미지를 슬라이드 크기만큼 채우도록 설정 */
+    height: 500px;
+    /* 이미지의 높이를 슬라이드 높이에 맞게 설정 */
+    object-fit: contain;
+    /* 이미지 비율을 유지하면서 크기에 맞게 채우기 */
 }

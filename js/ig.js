@@ -1,5 +1,6 @@
 import { MENU_CATEGORY, CATEGORY_OF_MENU } from "./enum.js";
 import { slideManage } from "./slide.js";
+import { zoomManage } from "./zoom.js";
 import { timerManage } from "./timer.js";
 
 // menu bar 만들기 함수(즉시 실행 함수) ====================================================
@@ -63,5 +64,6 @@ function setAttributes(el, attrs) {
     }
 }
 
-// slideManage(); // => html 수정 필요
+slideManage();
+zoomManage();
 timerManage();

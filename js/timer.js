@@ -1,4 +1,4 @@
-const LOGIN_TIME_LIMIT = 1; // CONST VALUE that determine the limit of login time(minute)
+const LOGIN_TIME_LIMIT = 30; // CONST VALUE that determine the limit of login time(minute)
 
 // login time 컨트롤 함수
 export const timerManage = () => {
