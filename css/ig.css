@@ -217,15 +217,16 @@ body {
 .clothes {
     display: flex;
     justify-content: center;
-    width: 100%;
+    margin: 1rem;
 }
 
 .img-box-for-items {
     display: flex;
     flex-direction: column;
-    margin: 1rem;
     overflow: hidden;
 }
+
+
 
 /* img 파일은 img-box에 담을 것 -> 모든 이미지 공통 사항 이라 element style 지정 */
 /* img {width: 100%;
@@ -331,7 +332,8 @@ body {
     animation-iteration-count: infinite;
 }
 
-.small-font {
+.small-font,
+.img-box-for-items a {
     font-size: small;
 }
 
@@ -486,6 +488,7 @@ body {
     /* 이미지 비율을 유지하면서 크기에 맞게 채우기 */
 }
 
-#info-box-for-customer span {
-    margin: 0.3rem 0;
+#info-box-for-customer {
+    /* margin: 1rem auto; */
+    padding: 1.5rem;
 }
