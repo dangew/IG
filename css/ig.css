@@ -215,13 +215,32 @@ body {
 }
 
 .clothes {
-  display: flex;
-  width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 1rem 1rem;
 }
 
 .img-box-for-items {
-  width: 20%;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+
+    min-width: 18vw;
+    max-width: 18vw;
+    min-height: 41vh;
+    max-height: 41vh;
 }
+
+.img-box-for-items img {
+    padding: 0 0.5rem;
+
+    min-width: 18vw;
+    max-width: 18vw;
+    min-height: 37vh;
+    max-height: 37vh;
+}
+
+
 
 /* img 파일은 img-box에 담을 것 -> 모든 이미지 공통 사항 이라 element style 지정 */
 /* img {width: 100%;
@@ -230,6 +249,17 @@ body {
 #menubar .g {
   font-family: fantasy;
   text-align: center;
+}
+
+.search-box {
+    margin: 1rem auto;
+
+    display: flex;
+    justify-content: center;
+}
+
+.search-box input {
+    margin: 0 0.3rem;
 }
 
 #menubar .l {
@@ -290,15 +320,13 @@ body {
 }
 
 .flex-row {
-  width: 100%;
-  display: flex;
-  /* flex-direction: row; */
-  justify-content: center;
-  /* 수평 중앙 정렬 */
-  align-items: center;
-  /* 수직 중앙 정렬 (필요시 추가) */
-  text-align: center;
-  margin: 0 auto;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    /* 수평 중앙 정렬 */
+    align-items: center;
+    /* 수직 중앙 정렬 (필요시 추가) */
+    text-align: center;
 }
 
 .margin-zero {
@@ -318,8 +346,9 @@ body {
   animation-iteration-count: infinite;
 }
 
-.small-font {
-  font-size: small;
+.small-font,
+.img-box-for-items a {
+    font-size: small;
 }
 
 /* ========================애니메이션======================== */
@@ -427,9 +456,14 @@ body {
 }
 
 .full-name-logo {
-  color: grey;
-  font-family: fantasy;
-  width: 10vw;
+    color: grey;
+    font-family: fantasy;
+
+    right: 0;
+    position: absolute;
+    align-items: center;
+
+    margin: 0 0.5rem;
 }
 
 .slidewrap {
@@ -460,10 +494,15 @@ body {
 }
 
 .slide img {
-  /* width: 100%; */
-  /* 이미지를 슬라이드 크기만큼 채우도록 설정 */
-  height: 500px;
-  /* 이미지의 높이를 슬라이드 높이에 맞게 설정 */
-  object-fit: contain;
-  /* 이미지 비율을 유지하면서 크기에 맞게 채우기 */
+    /* width: 100%; */
+    /* 이미지를 슬라이드 크기만큼 채우도록 설정 */
+    height: 500px;
+    /* 이미지의 높이를 슬라이드 높이에 맞게 설정 */
+    object-fit: contain;
+    /* 이미지 비율을 유지하면서 크기에 맞게 채우기 */
+}
+
+#info-box-for-customer {
+    /* margin: 1rem auto; */
+    padding: 1.5rem;
 }
