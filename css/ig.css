@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 
-/* ========================경민(헤더)======================== */
+/* ============(헤더)============ */
 header {
     width: 100%;
     z-index: 1;
@@ -38,53 +38,6 @@ header {
     width: 100%;
 }
 
-.image-box-for-icon {
-    width: 1.5rem;
-    height: 1.5rem;
-}
-
-.img {
-    width: 100%;
-    height: 100%;
-}
-
-#registration {
-    display: flex;
-    align-items: center;
-    justify-content: right;
-
-    flood-color: rgb(95, 94, 95);
-    background-color: #e8e6d1;
-}
-
-#registration li {
-    margin: 0.3rem 0.5rem;
-    list-style: none;
-}
-
-#registration button {
-    background: transparent;
-    border: 0;
-    font-size: 1rem;
-    font-weight: bold;
-    color: #333333;
-}
-
-#registration button:hover {
-    cursor: pointer;
-    color: rgb(106, 97, 97);
-}
-
-.cart {
-    width: 100%;
-    height: 100%;
-}
-
-.myPage {
-    width: 100%;
-    height: 100%;
-}
-
 .rights {
     display: flex;
     position: absolute;
@@ -112,11 +65,7 @@ header {
     color: rgb(106, 97, 97);
 }
 
-/* ========================end of 경민======================== */
-
-body {
-    margin: 0;
-}
+/* ============(/헤더)============ */
 
 .vertical-box {
     display: flex;
@@ -151,7 +100,6 @@ body {
     align-items: center;
 }
 
-/* ========================태희======================== */
 #member:hover {
     cursor: pointer;
     color: rgb(106, 97, 97);
@@ -166,11 +114,6 @@ body {
     font-family: fantasy;
     border-top: 1px white dotted;
 }
-
-/* #menubar .background {overflow: hidden;
-    background-size: cover;
-    background-image: url(../images/옷사진.jpg);
-} */
 
 #menubar h1 {
     color: brown;
@@ -214,6 +157,7 @@ body {
     font-family: fantasy;
 }
 
+/* ============(슬라이드 설정)============ */
 /* container */
 #down-clothes-slidewrap,
 #up-clothes-slidewrap {
@@ -250,16 +194,7 @@ body {
     max-height: 37vh;
 }
 
-
-
-/* img 파일은 img-box에 담을 것 -> 모든 이미지 공통 사항 이라 element style 지정 */
-/* img {width: 100%;
-} */
-
-#menubar .g {
-    font-family: fantasy;
-    text-align: center;
-}
+/* ============(/슬라이드 설정)============ */
 
 .search-box {
     margin: 1rem auto;
@@ -272,19 +207,7 @@ body {
     margin: 0 0.3rem;
 }
 
-#menubar .l {
-    font-size: large;
-    font-weight: bold;
-    color: black;
-}
-
-#menubar .k {
-    color: grey;
-    font-family: fantasy;
-    width: 10vw;
-}
-
-/* 텍스트 박스 */
+/* ============(텍스트 박스)============ */
 .text-box {
     margin: 1rem auto;
     font-family: fantasy;
@@ -301,29 +224,31 @@ body {
     margin: 0.5rem;
 }
 
-/* ========================상품 제목======================== */
+/* ============(/텍스트 박스)============ */
 
-#menubar .product-title {
+/* ========================(상품 제목)======================== */
+
+.product-title {
     text-align: center;
 }
 
-#menubar .product-title>a:link {
+.product-title>a:link {
     color: black;
     text-decoration: none;
 }
 
-#menubar .product-title>a:visited {
+.product-title>a:visited {
     color: black;
 }
 
-#menubar .product-title>a:hover {
+.product-title>a:hover {
     animation-name: rainbowLoop;
     animation-duration: 6s;
     animation-fill-mode: forwards;
     animation-iteration-count: infinite;
 }
 
-/* ======================================================== */
+/* ========================(/상품 제목)======================== */
 
 .up-border {
     border-top: 1px solid lightgray;
@@ -361,7 +286,7 @@ body {
     font-size: small;
 }
 
-/* ========================애니메이션======================== */
+/* ===========(애니메이션)=========== */
 @keyframes rainbowLoop {
     0% {
         color: red;
@@ -422,7 +347,7 @@ body {
     }
 }
 
-/* ================================================ */
+/* ===========(/애니메이션)=========== */
 
 .fixed-box {
     margin: 16px 0;
@@ -513,6 +438,5 @@ body {
 }
 
 #info-box-for-customer {
-    /* margin: 1rem auto; */
     padding: 1.5rem;
 }
