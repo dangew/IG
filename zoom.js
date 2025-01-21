@@ -6,12 +6,12 @@ clothes.forEach((cloth) => {
         cloth.style.zIndex = "1000";
 
         // 나머지 이미지는 축소
-        clothes.forEach((other, otherIndex) => {
-            if (otherIndex !== index) {
-                other.style.transform = "scale(0.8)";
-                other.style.zIndex = ""; // 기본값으로 설정
-            }
-        });
+        // clothes.forEach((other, otherIndex) => {
+        //     if (otherIndex !== index) {
+        //         other.style.transform = "scale(0.8)";
+        //         other.style.zIndex = ""; // 기본값으로 설정
+        //     }
+        // });
     });
 
     cloth.addEventListener("mouseout", () => {
