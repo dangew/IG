@@ -34,7 +34,7 @@
   /* slide의 vertical center에 img가 위치하도록 수정 */
 }
 
-img {
+.slide img {
   width: 98%;
   /* 이미지를 슬라이드 크기만큼 채우도록 설정 */
   max-height: 500px;
