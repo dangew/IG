@@ -112,6 +112,10 @@ body {
   right: 1vw;
   top: 10%;
 }
+.slide section2 {
+  display: flex;
+  width: 100%; /* 슬라이드의 너비에 맞게 */
+}
 
 /* ------------------------태희------------------------ */
 #member:hover {
@@ -126,7 +130,6 @@ body {
   list-style: square;
   text-align: center;
   font-family: fantasy;
-  background-color: pink;
   border-top: 1px white dotted;
 }
 
@@ -211,16 +214,16 @@ body {
   text-align: center;
 }
 
-#menubar .product-title>a:link {
+#menubar .product-title > a:link {
   color: black;
   text-decoration: none;
 }
 
-#menubar .product-title>a:visited {
+#menubar .product-title > a:visited {
   color: black;
 }
 
-#menubar .product-title>a:hover {
+#menubar .product-title > a:hover {
   animation-name: rainbowLoop;
   animation-duration: 6s;
   animation-fill-mode: forwards;
@@ -404,10 +407,12 @@ body {
   /* 슬라이드 높이 설정 */
   flex-shrink: 0;
   /* 슬라이드가 크기를 줄이지 않도록 설정 */
+  display: flex;
+  justify-content: center;
 }
 
 img {
-  width: 98%;
+  /* width: 98% */
   /* 이미지를 슬라이드 크기만큼 채우도록 설정 */
   height: 500px;
   /* 이미지의 높이를 슬라이드 높이에 맞게 설정 */
