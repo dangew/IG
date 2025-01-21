@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 
-/* ------------------------경민(헤더)------------------------ */
+/* ========================경민(헤더)======================== */
 header {
     width: 100%;
     z-index: 1;
@@ -108,7 +108,8 @@ header {
     color: rgb(106, 97, 97);
 }
 
-/* ------------------------end of 경민------------------------ */
+/* ========================end of 경민======================== */
+
 body {
     margin: 0;
 }
@@ -146,7 +147,7 @@ body {
     align-items: center;
 }
 
-/* ------------------------태희------------------------ */
+/* ========================태희======================== */
 #member:hover {
     cursor: pointer;
     color: rgb(106, 97, 97);
@@ -211,17 +212,6 @@ body {
     font-family: fantasy;
 }
 
-/* #menubar .p {
-    font-family: fantasy;
-    text-align: center;
-}
-
-#menubar .q {
-    font-family: fantasy;
-    font-size: 12px;
-    text-align: center;
-} */
-
 .clothes {
     display: flex;
     width: 100%;
@@ -270,7 +260,7 @@ img {
     margin: 0.5rem;
 }
 
-/* ---------------------상품 제목--------------------- */
+/* ========================상품 제목======================== */
 
 #menubar .product-title {
     text-align: center;
@@ -292,7 +282,7 @@ img {
     animation-iteration-count: infinite;
 }
 
-/* -------------------------------------------------- */
+/* ======================================================== */
 
 .up-border {
     border-top: 1px solid lightgray;
@@ -301,7 +291,7 @@ img {
 .flex-row {
     width: 100%;
     display: flex;
-    flex-direction: row;
+    /* flex-direction: row; */
     justify-content: center;
     /* 수평 중앙 정렬 */
     align-items: center;
@@ -331,7 +321,7 @@ img {
     font-size: small;
 }
 
-/* ---------------------애니메이션--------------------- */
+/* ========================애니메이션======================== */
 @keyframes rainbowLoop {
     0% {
         color: red;
@@ -392,7 +382,7 @@ img {
     }
 }
 
-/* --------------------------------------------------- */
+/* ================================================ */
 
 .fixed-box {
     margin: 16px 0;
