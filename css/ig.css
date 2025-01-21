@@ -216,11 +216,15 @@ body {
 
 .clothes {
     display: flex;
+    justify-content: center;
     width: 100%;
 }
 
 .img-box-for-items {
-    width: 20%;
+    display: flex;
+    flex-direction: column;
+    margin: 1rem;
+    overflow: hidden;
 }
 
 /* img 파일은 img-box에 담을 것 -> 모든 이미지 공통 사항 이라 element style 지정 */
