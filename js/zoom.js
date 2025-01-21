@@ -4,6 +4,7 @@ export const zoomManage = () => {
 
     // 각 이미지에 마우스오버 이벤트 추가
     clothes.forEach((cloth) => {
+        console.log(`cloth: ${cloth}`);
         cloth.addEventListener("mouseover", () => {
             cloth.style.transform = "scale(1.2)";
             cloth.style.zIndex = "1000"; // 이미지가 다른 요소 위에 오도록 설정
