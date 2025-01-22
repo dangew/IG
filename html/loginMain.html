@@ -68,6 +68,13 @@
       </div>
     </div>
     <script>
+      var urlParams = new URLSearchParams(window.location.search);
+      var email = urlParams.get("test");
+      // var decodedEmail = decodeURIComponent(email);
+      // var emailField = document.getElementById(
+      //   "email-b54fdc79-efe6-451f-8793-1953e2cdc233"
+      // );
+      console.log(email);
       const $loginBtn = document.querySelector(".log");
       $loginBtn.onclick = function (event) {
         const $username = document.getElementById("userName");

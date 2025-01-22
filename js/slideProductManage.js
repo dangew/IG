@@ -23,5 +23,5 @@ export const slideProductManage = (slideWrapperId) => {
     }
     currentSlide = nextSlide;
     moveSlide(currentSlide);
-  }, 3000); // 2초마다 슬라이드 전환
+  }, 5000); // 5초마다 슬라이드 전환
 };

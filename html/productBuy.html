@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="../css/productInfo.css" />
+    <title>title</title>
+  </head>
+
+  <body>
+    <h1 class="purchase">구매하기</h1>
+    <h2>상품명 : <span id="product-name"></span></h2>
+    <div>
+      <div><img class="target-product-img" /></div>
+      <div>
+        <input
+          type="text"
+          name="amount"
+          id="amount"
+          value="수량을 입력하세요"
+          onfocus="this.value=''"
+        />
+        <input
+          id="check"
+          type="submit"
+          value="확인"
+          onclick="updateProgress()"
+        />
+      </div>
+      <hr style="color: brown" />
+      <div>
+        <p class="count">재고 수</p>
+        <span
+          ><progress id="progressBar" value="100" min="0" max="100"></progress
+        ></span>
+      </div>
+    </div>
+    <script type="module" src="../js/productInfo.js"></script>
+  </body>
+</html>

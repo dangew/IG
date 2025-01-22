@@ -1,73 +1,67 @@
 <!DOCTYPE html>
 <html>
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="project02.css" />
+    <title>title</title>
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <link rel="stylesheet" href="project02.css" />
-  <title>title</title>
-</head>
-
-<body>
-  <div>
-    <hr class="top-line" />
-    <div class="logo">
-      <div class="image-box">
-        <a href="ig.html">
-          <img src="이거지_dark.png" id="logo" />
-        </a>
-      </div>
-    </div>
-  </div>
-  <fieldset>
-    <form id="explainCloth">
-      <div class="container">
-        <div class="left"><img src="옷사진2.jpg" alt="옷사진2" /></div>
-        <div class="right">
-          <input readonly type="text" name="nameitem" id="nameitem" value="블랙앤화이트 투피스" />
-          <span><input class="charge" type="submit" value="구매하기" /></span>
-          <span><input class="charge" type="submit" value="장바구니" /></span>
-          <br />
-          <div>
-            <p>
-              <select name="choose" id="choose">
-                <option value="">--사이즈를 선택하세요--</option>
-                <option value="xs">xs</option>
-                <option value="s">s</option>
-                <option value="m">m</option>
-                <option value="l">l</option>
-                <option value="xl">xl</option>
-              </select>
-              <input class="charge" type="submit" value="확인" />
-            </p>
-          </div>
-          <div>
-            <p>
-              가격:
-              <span class="won">18000원</span>
-              <span> -> 3600원</span>
-            </p>
-          </div>
-          <div>
-            <fieldset>
-              <p>상품설명</p>
-              <a class="explain" name="explain" id="explain">
-                데일리 룩으로 딱! 남자친구나 나들이 갈 때 필수룩!
-              </a>
-            </fieldset>
+  <body>
+    <fieldset>
+      <form id="explainCloth">
+        <div class="container">
+          <div class="left"><img src="옷사진2.jpg" alt="옷사진2" /></div>
+          <div class="right">
+            <input
+              readonly
+              type="text"
+              name="nameitem"
+              id="nameitem"
+              value="블랙앤화이트 투피스"
+            />
+            <span><input class="charge" type="submit" value="구매하기" /></span>
+            <span><input class="charge" type="submit" value="장바구니" /></span>
+            <br />
+            <div>
+              <p>
+                <select name="choose" id="choose">
+                  <option value="">--사이즈를 선택하세요--</option>
+                  <option value="xs">xs</option>
+                  <option value="s">s</option>
+                  <option value="m">m</option>
+                  <option value="l">l</option>
+                  <option value="xl">xl</option>
+                </select>
+                <input class="charge" type="submit" value="확인" />
+              </p>
+            </div>
+            <div>
+              <p>
+                가격:
+                <span class="won">18000원</span>
+                <span> -> 3600원</span>
+              </p>
+            </div>
+            <div>
+              <fieldset>
+                <p>상품설명</p>
+                <a class="explain" name="explain" id="explain">
+                  데일리 룩으로 딱! 남자친구나 나들이 갈 때 필수룩!
+                </a>
+              </fieldset>
+            </div>
           </div>
         </div>
+      </form>
+    </fieldset>
+    <fieldset>
+      <div>
+        <p>고객 만족도</p>
+        <progress id="progress" value="89" min="0" max="100"></progress>
+        <p>리뷰 수</p>
+        <progress id="progress" value="70" min="0" max="100"></progress>
       </div>
-    </form>
-  </fieldset>
-  <fieldset>
-    <div>
-      <p>고객 만족도</p>
-      <progress id="progress" value="89" min="0" max="100"></progress>
-      <p>리뷰 수</p>
-      <progress id="progress" value="70" min="0" max="100"></progress>
-    </div>
-  </fieldset>
-  <script src="/project05.js"></script>
-</body>
-
+    </fieldset>
+    <script src="../js/productInfo.js"></script>
+  </body>
 </html>

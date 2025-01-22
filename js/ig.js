@@ -16,7 +16,9 @@ import { menuBar } from "./menuBar.js";
 const $loginBtn = document.getElementById("login-btn");
 $loginBtn.onclick = function getlogin() {
   alert("로그인 페이지로 이동합니다.");
-  window.open("../html/loginMain.html", "_blank");
+  var baseUrl = "../html/loginMain.html";
+  var newUrl = baseUrl;
+  window.open(newUrl, "_blank");
 };
 
 document.addEventListener("DOMContentLoaded", () => {

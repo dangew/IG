@@ -120,26 +120,6 @@ export const CATEGORY_OF_MENU = {
 
 // 판매 옷 사진
 export const PRODUCT_AND_TITLE = {
-  "옷사진6.jpg": "올 가을은 '이걸로'",
-  "옷사진3.jpg": "연초는 바로 이 '룩'",
-  "옷사진4.jpg": "The 욱 The YOUNG하게",
-  "옷사진5.jpg": "연초에도 모두 '함께'",
-  "청바지.jpg": "청바지~",
-  "main_image_1.gif": "연초에도 모두 '함께'",
-  "main_image_2.gif": "연초에도 모두 '함께'",
-  "main_image_3.gif": "연초에도 모두 '함께'",
-  "main_image_4.gif": "연초에도 모두 '함께'",
-  "main_image_5.gif": "연초에도 모두 '함께'",
-  "쫀쫀.gif": "쫀쫀~~",
-  "image6.webp": "쫀쫀~~",
-};
-
-// 판매 옷 사진
-export const PRODUCT_AND_TITLE_2 = {
-  "main_image_1.gif": "연초에도 모두 '함께'",
-  "main_image_2.gif": "연초에도 모두 '함께'",
-  "main_image_3.gif": "연초에도 모두 '함께'",
-  "main_image_4.gif": "연초에도 모두 '함께'",
   "main_image_5.gif": "연초에도 모두 '함께'",
   "쫀쫀.gif": "쫀쫀~~",
   "image6.webp": "쫀쫀~~",
@@ -154,6 +134,14 @@ export const PRODUCT_AND_TITLE_2 = {
   "t1.gif": "쫀쫀~~",
   "t2.gif": "쫀쫀~쫀~~쫀쫀~~",
   "t3.gif": "쫀쫀~쫀쫀~쫀~~~",
+};
+
+// 판매 옷 사진
+export const PRODUCT_AND_TITLE_2 = {
+  "main_image_1.gif": "연초에도 모두 '함께'1",
+  "main_image_2.gif": "연초에도 모두 '함께'2",
+  "main_image_3.gif": "연초에도 모두 '함께'3",
+  "main_image_4.gif": "연초에도 모두 '함께'4",
   "t4.gif": "쫀쫀쫀~쫀~~쫀~~",
   "t5.gif": "쫀쫀~~",
   "t6.gif": "쫀쫀~~쫀쫀~~",
