@@ -5,6 +5,7 @@
   background-color: rgb(83, 76, 76);
   margin: 0;
 }
+
 .logo {
   display: flex;
   justify-content: center;
@@ -16,40 +17,49 @@
 #logo {
   height: 200px;
 }
+
 .purchase {
   text-align: center;
 }
+
 #amount {
   height: 30px;
   font-size: 16px;
 }
+
 #check {
   background-color: bisque;
   border: none;
   height: 35px;
   border-radius: 22px;
 }
+
 .count {
   margin: 0;
   font-size: 25px;
 }
+
 #progressBar {
   height: 40px;
   width: 500px;
   appearance: none;
 }
+
 #progressBar::-webkit-progress-bar {
   background-color: #f3f3f3;
   border-radius: 30px;
 }
+
 #progressBar::-webkit-progress-value {
   background-color: brown;
   border-radius: 30px;
 }
+
 #progressBar::-moz-progress-bar {
   background-color: brown;
   border-radius: 30px;
 }
+
 #progressBar::-ms-fill {
   background-color: brown;
   border-radius: 30px;

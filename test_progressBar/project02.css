@@ -5,6 +5,7 @@
   background-color: rgb(83, 76, 76);
   margin: 0;
 }
+
 .logo {
   display: flex;
   justify-content: center;
@@ -16,32 +17,40 @@
 #logo {
   height: 200px;
 }
+
 .container {
   display: flex;
 }
+
 .left {
   display: flex;
 }
+
 .right {
   display: inline-flexbox;
 }
+
 #nameitem {
   font-size: 14px;
   text-align: center;
   border: none;
 }
+
 .charge {
   font-size: 10px;
   border-radius: 30px;
   border-color: bisque;
   background-color: bisque;
 }
+
 #choose {
   border-color: bisque;
 }
+
 .won {
   text-decoration-line: line-through;
 }
+
 .explain {
   font-size: 28px;
   color: brown;
