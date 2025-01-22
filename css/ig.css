@@ -87,7 +87,6 @@ header {
 #menubar .ig {
     display: flex;
     color: white;
-    overflow-x: auto;
     padding: 1em 1em;
     font-family: fantasy;
 }
