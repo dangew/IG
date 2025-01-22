@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="project04.css">
+    <title>title</title>
+  </head>
+  <body>
+    <div>
+      <hr class="top-line" />
+      <div class="logo">
+        <div class="image-box">
+          <a href="./ig.html">
+            <img src="이거지_dark.png" id="logo" />
+          </a>
+        </div>
+      </div>
+    <div>
+      <h3 class="h3">아이디 찾기</h3>
+      <hr style="border-color: brown;">
+      <p style="margin: 0;">아이디 찾는 방법을 선택해 주세요.</p>
+      <br />
+    </div>
+    <fieldset style="border-color: brown;">
+      <form id="number-form">
+        <div>
+          <input
+            type="checkbox"
+            name="number-input"
+            id="number-input"
+          />회원정보에 등록한 휴대전화로 인증
+          <p id="equal">
+            회원정보에 등록한 휴대전화 번호와 입력한 휴대전화 번호가 같아야,
+            인증번호를 받을 수 있습니다.
+          </p>
+        </div>
+        <br />
+       <div>  
+        <div>
+          <span>이름</span>
+          <input style="margin-left: 32px;" type="text" name="textName" id="textName" />
+        </div>
+        <div class="group">
+          <span>휴대전화</span>
+          <input
+            type="text"
+            name="phoneNumber"
+            id="phoneNumber"
+            value="010-xxxx-xxxx"
+            onfocus="this.value=''"
+            />
+          <span><input class="prove" type="submit" value="인증번호 받기" /></span>
+        </div>
+        <div>
+        <p style="margin-bottom: 0;">인증번호 입력</p>
+          <input type="text" name="proveNumber" id="proveNumber"
+          value="인증번호 6자리 숫자 입력" onfocus="this.value= ''""
+          oninput="number(this)" />
+        <span><input class="bt" type="submit" value="입력"></span>
+        <p style="margin-bottom: 0;">인증번호가 오지 않나요?</p>
+        </div>
+      </div>
+      </form>
+      <hr style="border-color: brown;"/>
+      <form id="email-form">
+        <div>
+          <input type="checkbox" name="email-input" id="email-input" />본인확인
+          이메일로 인증
+          <p id="equal">
+            본인확인 이메일 주소와 입력한 이메일 주소가 같아야, 인증번호를 받을
+            수 있습니다.
+          </p>
+        </div>
+        <br />
+        <div>
+          <span>이름</span>
+          <input class="type" type="text" name="name-input" id="name-input" />
+        </div>
+        <div>
+          <span>이메일 주소</span>
+          <input type="text" name="emailAddress" id="emailAddress" />
+          <span><input class="prove" type="submit" value="인증번호 받기" /></span>
+          <p style="margin-bottom: 0;">인증번호 입력</p>
+            <input
+              type="text"
+              name="proveEmail"
+              id="proveEmail"
+              value="인증번호 6자리 숫자 입력"
+              onfocus="this.value=''"
+              oninput="email(this)"
+              ;
+            />
+            <span><input class="bt" type="submit" value="입력"></span>
+          <p style="margin-bottom: 0;">인증번호가 오지 않나요?</p>
+        </div>
+      </form>
+    </fieldset>
+    <br />
+    <div class="location">
+      <input class="bt" type="button" value="다음" />
+    </div>
+    <script src="project03.js"></script>
+  </body>
+</html>
