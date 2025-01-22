@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="project01.css" />
+    <title>title</title>
+  </head>
+  <body>
+    <div>
+      <hr class="top-line" />
+      <div class="logo">
+        <div class="image-box">
+          <a href="ig.html">
+            <img src="이거지_dark.png" id="logo" alt="로고" />
+          </a>
+        </div>
+      </div>
+    </div>
+    <h2 class="purchase">구매하기</h2>
+    <div>
+      <div><img src="옷사진2.jpg" alt="옷사진2" /></div>
+      <div>
+        <input
+          type="text"
+          name="amount"
+          id="amount"
+          value="수량을 입력하세요"
+          onfocus="this.value=''"
+        />
+        <input
+          id="check"
+          type="submit"
+          value="확인"
+          onclick="updateProgress()"
+        />
+      </div>
+      <hr style="color: brown" />
+      <div>
+        <p class="count">재고 수</p>
+        <span
+          ><progress id="progressBar" value="100" min="0" max="100"></progress
+        ></span>
+      </div>
+    </div>
+    <script src="project06.js"></script>
+  </body>
+</html>
