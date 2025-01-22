@@ -1,8 +1,11 @@
 import { PRODUCT_AND_TITLE, PRODUCT_AND_TITLE_2 } from "./enum.js";
 
-const am = document.querySelector("#amount");
-const progressbar = document.querySelector("#progressBar");
 const urlParams = new URLSearchParams(window.location.search);
+
+const $checkBtn = document.getElementById("check");
+$checkBtn.addEventListener("click", () => {
+  updateProgress();
+});
 
 function updateProgress() {
   const am = parseInt(document.getElementById("amount").value);
