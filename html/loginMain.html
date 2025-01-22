@@ -2,7 +2,7 @@
 <html>
   <head>
     <meta charset="UTF-8" />
-    <link rel="stylesheet" href="project01.css" />
+    <link rel="stylesheet" href="../css/project01.css" />
     <title>로그인 페이지</title>
   </head>
 
@@ -48,7 +48,7 @@
           <div class="social-login">
             <div id="naver-box" class="box-for-social-login">
               <div class="img-to-login">
-                <img src="naver.jpg" alt="naver" />
+                <img src="../images/naver.jpg" alt="naver" />
               </div>
               <div class="text-to-login">
                 <a>네이버 아이디로 로그인</a>
@@ -57,7 +57,7 @@
 
             <div id="kakao-box" class="box-for-social-login">
               <div class="img-to-login">
-                <img src="카카오톡.jpg" alt="kakao" />
+                <img src="../images/카카오톡.jpg" alt="kakao" />
               </div>
               <div class="text-to-login">
                 <a>카카오톡으로 로그인</a>
@@ -79,7 +79,7 @@
 
         // ===========id, pw 임의 설정===========
         if (idvalue === "id123" && passvalue === "1234") {
-          console.log("로그인 되었습니다. 환영합니다");
+          alert("로그인 되었습니다. 환영합니다");
           window.open("https://www.google.com", "_blank");
         } else {
           alert("아이디나 비밀번호가 틀렸습니다. 다시 시도해 주세요.");
@@ -108,13 +108,13 @@
       const $idSearchBtn = document.getElementById("findID");
       $idSearchBtn.addEventListener("click", () => {
         alert("아이디 찾기 페이지로 이동합니다.");
-        window.open("./project03.html", "_blank");
+        window.open("./authentication.html", "_blank");
       });
 
       const $pwSearchBtn = document.getElementById("findPW");
       $pwSearchBtn.addEventListener("click", () => {
         alert("비밀번호 찾기 페이지로 이동합니다.");
-        window.open("./project04.html", "_blank");
+        window.open("./findPassword.html", "_blank");
       });
       // ================/찾기 페이지 링크================
     </script>

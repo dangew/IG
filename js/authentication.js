@@ -85,6 +85,6 @@ $loginAgainBtn.forEach((targetBtn) => {
   targetBtn.addEventListener("click", () => {
     alert("다시 로그인 해 주세요.");
     window.close();
-    window.open("./project02.html", "_blank");
+    window.open("../html/loginMain.html", "_blank");
   });
 });

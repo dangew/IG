@@ -13,6 +13,12 @@ import { menuBar } from "./menuBar.js";
   });
 })();
 
+const $loginBtn = document.getElementById("login-btn");
+$loginBtn.onclick = function getlogin() {
+  alert("로그인 페이지로 이동합니다.");
+  window.open("../html/loginMain.html", "_blank");
+};
+
 document.addEventListener("DOMContentLoaded", () => {
   // ======== 엘리먼트 생성 함수 호출 ========
   // 메뉴바 엘리먼트 생성
