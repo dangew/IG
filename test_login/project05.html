@@ -1,89 +1,74 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-    <meta charset="UTF-8" />
-    <title>title</title>
+  <meta charset="UTF-8" />
+  <title>title</title>
 </head>
+
 <body>
-    <h3>비밀번호 찾기</h3>
-      <hr />
-      <p>비밀번호 찾는 방법을 선택해 주세요.</p>
-      <br />
-    </div>
-    <fieldset>
-      <form id="password-form">
-        <div>
-          <input
-            type="checkbox"
-            name="number-input"
-            id="number-input"
-          />회원정보에 등록한 휴대전화로 인증
-          <p>
-            회원정보에 등록한 휴대전화 번호와 입력한 휴대전화 번호가 같아야,
-            인증번호를 받을 수 있습니다.
-          </p>
-          <br />
-          <div>
-            <span>이름</span>
-            <input type="text" name="textName" id="textName" />
-          </div>
-          <div>
-            <span>휴대전화</span>
-            <input
-              type="text"
-              name="phoneNumber"
-              id="phoneNumber"
-              value="010부터 적으세요."
-              onfocus="this.value=''"
-            />
-            <span><button value="인증번호 받기"></button></span>
-            <p>
-              <input type="text" name="provePassword" id="provePassword"
-              value="인증번호 6자리 숫자 입력" onfocus="this.value= ''""
-              oninput="password(this)" />
-            </p>
-            <span>인증번호가 오지 않나요</span>
-            <button value="?"></button>
-          </div>
-        </div>
-      </form>
-      <hr />
-      <form id="email-form">
-        <div>
-          <input type="checkbox" name="email-input" id="email-input" />본인확인
-          이메일로 인증
-          <p>
-            본인확인 이메일 주소와 입력한 이메일 주소가 같아야, 인증번호를 받을
-            수 있습니다.
-          </p>
-        </div>
+  <h3>비밀번호 찾기</h3>
+  <hr />
+  <p>비밀번호 찾는 방법을 선택해 주세요.</p>
+  <br />
+  </div>
+  <fieldset>
+    <form id="password-form">
+      <div>
+        <input type="checkbox" name="number-input" id="number-input" />회원정보에 등록한 휴대전화로 인증
+        <p>
+          회원정보에 등록한 휴대전화 번호와 입력한 휴대전화 번호가 같아야,
+          인증번호를 받을 수 있습니다.
+        </p>
         <br />
         <div>
           <span>이름</span>
-          <input type="text" name="name-input" id="name-input" />
+          <input type="text" name="textName" id="textName" />
         </div>
         <div>
-          <span>이메일 주소</span>
-          <input type="text" name="emailAddress" id="emailAddress" />
-          <span><button aria-valuetext="인증번호 받기"></button></span>
+          <span>휴대전화</span>
+          <input type="text" name="phoneNumber" id="phoneNumber" value="010부터 적으세요." onfocus="this.value=''" />
+          <span><button value="인증번호 받기"></button></span>
           <p>
-            <input
-              type="text"
-              name="provePasswordEmail"
-              id="provePasswordEmail"
-              value="인증번호 6자리 숫자 입력"
-              onfocus="this.value=''"
-              oninput="passwordemail(this)"
-              ;
-            />
+            <input type="text" name="provePassword" id="provePassword" value="인증번호 6자리 숫자 입력" onfocus="this.value= ''""
+              oninput=" password(this)" />
           </p>
           <span>인증번호가 오지 않나요</span>
           <button value="?"></button>
         </div>
-      </form>
-    </fieldset>
-    <br />
-    <input class="btt" type="button" value="다음" />
-    <script src="/project04.js"></script>
+      </div>
+    </form>
+    <hr />
+    <form id="email-form">
+      <div>
+        <input type="checkbox" name="email-input" id="email-input" />본인확인
+        이메일로 인증
+        <p>
+          본인확인 이메일 주소와 입력한 이메일 주소가 같아야, 인증번호를 받을
+          수 있습니다.
+        </p>
+      </div>
+      <br />
+      <div>
+        <span>이름</span>
+        <input type="text" name="name-input" id="name-input" />
+      </div>
+      <div>
+        <span>이메일 주소</span>
+        <input type="text" name="emailAddress" id="emailAddress" />
+        <span><button aria-valuetext="인증번호 받기"></button></span>
+        <p>
+          <input type="text" name="provePasswordEmail" id="provePasswordEmail" value="인증번호 6자리 숫자 입력"
+            onfocus="this.value=''" oninput="passwordemail(this)" ; />
+        </p>
+        <span>인증번호가 오지 않나요</span>
+        <button value="?"></button>
+      </div>
+    </form>
+  </fieldset>
+  <br />
+  <input class="btt" type="button" value="다음" />
+  <script src="/project04.js"></script>
 </body>
+
 </html>

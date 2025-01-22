@@ -1,104 +1,95 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="stylesheet" href="project01.css" />
-    <title>로그인 페이지</title>
-  </head>
-  <body>
-    <div class="loginModal">
-      <div class="modal-content">
-        <span class="modalClose">&times;</span>
-        <h1>로그인</h1>
-        <form id="loginForm">
-          <fieldset class="field">
-            <label for="userName"></label>
-            <input
-              class="userName"
-              type="text"
-              name="userName"
-              id="userName"
-              value="Id를 입력하세요."
-              onfocus="this.value=''"
-            /><br />
-            <br />
-            <label for="passWord"></label>
-            <input
-              class="passWord"
-              type="password"
-              name="passWord"
-              id="passWord"
-              value="비밀번호를 입력하세요."
-              onfocus="this.value=''"
-            />
-          </fieldset>
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="stylesheet" href="project01.css" />
+  <title>로그인 페이지</title>
+</head>
+
+<body>
+  <div class="loginModal">
+    <div class="modal-content">
+      <span class="modalClose">&times;</span>
+      <h1>로그인</h1>
+      <form id="loginForm">
+        <fieldset class="field">
+          <label for="userName"></label>
+          <input class="userName" type="text" name="userName" id="userName" value="Id를 입력하세요."
+            onfocus="this.value=''" /><br />
           <br />
-          <div style="padding-bottom: 1rem">
-            <input type="checkbox" name="check" id="check" />
-            <label for="check">자동로그인</label>
-          </div>
-          <div>
-            <button class="log" type="submit">로그인</button>
-            <button id="find">아이디 찾기</button>
-            <button id="finds">비밀번호 찾기</button>
-          </div>
-          <div class="sociallogin">
-            <div class="naver naverbox">
-              <div class="naver naverimg">
-                <img src="naver.jpg" alt="naver" />
-              </div>
-              <div class="naver navertext">
-                <a>네이버 아이디로 로그인</a>
-              </div>
+          <label for="passWord"></label>
+          <input class="passWord" type="password" name="passWord" id="passWord" value="비밀번호를 입력하세요."
+            onfocus="this.value=''" />
+        </fieldset>
+        <br />
+        <div style="padding-bottom: 1rem">
+          <input type="checkbox" name="check" id="check" />
+          <label for="check">자동로그인</label>
+        </div>
+        <div>
+          <button class="log" type="submit">로그인</button>
+          <button id="find">아이디 찾기</button>
+          <button id="finds">비밀번호 찾기</button>
+        </div>
+        <div class="sociallogin">
+          <div class="naver naverbox">
+            <div class="naver naverimg">
+              <img src="naver.jpg" alt="naver" />
             </div>
-            <div class="kakao kakaobox">
-              <div class="kakao kakaoimg">
-                <img src="카카오톡.jpg" alt="kakao" />
-              </div>
-              <div class="kakao kakaotext">
-                <a>카카오톡으로 로그인</a>
-              </div>
+            <div class="naver navertext">
+              <a>네이버 아이디로 로그인</a>
             </div>
           </div>
-        </form>
-      </div>
+          <div class="kakao kakaobox">
+            <div class="kakao kakaoimg">
+              <img src="카카오톡.jpg" alt="kakao" />
+            </div>
+            <div class="kakao kakaotext">
+              <a>카카오톡으로 로그인</a>
+            </div>
+          </div>
+        </div>
+      </form>
     </div>
-    <script>
-      const Log = document.querySelector(".log");
-      const username = document.getElementById("userName");
-      const password = document.getElementById("passWord");
-      const search = document.getElementById("find");
-      Log.onclick = function (event) {
-        event.preventDefault(); // 폼 제출을 막고 JavaScript 실행
+  </div>
+  <script>
+    const Log = document.querySelector(".log");
+    const username = document.getElementById("userName");
+    const password = document.getElementById("passWord");
+    const search = document.getElementById("find");
+    Log.onclick = function (event) {
+      event.preventDefault(); // 폼 제출을 막고 JavaScript 실행
 
-        let idvalue = username.value;
-        let passvalue = password.value;
+      let idvalue = username.value;
+      let passvalue = password.value;
 
-        if (idvalue === "id123" && passvalue === "1234") {
-          console.log("로그인 되었습니다. 환영합니다");
-          window.open("https://www.google.com", "_blank");
-        } else {
-          alert("아이디나 비밀번호가 틀렸습니다. 다시 시도해 주세요.");
-        }
-      };
-      const naverImg = document.querySelector(".naverimg img");
-      naverImg.addEventListener("click", () => {
-        window.open(
-          "https://nid.naver.com/nidlogin.login?mode=form&url=https://www.naver.com/",
-          "_blank"
-        );
-      });
-      const kakaoImg = document.querySelector(".kakaoimg img");
-      kakaoImg.addEventListener("click", () => {
-        window.open(
-          "https://accounts.kakao.com/login/?continue=https%3A%2F%2Fcs.kakao.com%2Fhelps%3Fcategory%3D25#login",
-          "_blank"
-        );
-      });
-      search.addEventListener("click", () => {
-        alert("아이디 찾기 페이지로 이동합니다.");
-        window.open("/project03.html", "_blank");
-      });
-    </script>
-  </body>
+      if (idvalue === "id123" && passvalue === "1234") {
+        console.log("로그인 되었습니다. 환영합니다");
+        window.open("https://www.google.com", "_blank");
+      } else {
+        alert("아이디나 비밀번호가 틀렸습니다. 다시 시도해 주세요.");
+      }
+    };
+    const naverImg = document.querySelector(".naverimg img");
+    naverImg.addEventListener("click", () => {
+      window.open(
+        "https://nid.naver.com/nidlogin.login?mode=form&url=https://www.naver.com/",
+        "_blank"
+      );
+    });
+    const kakaoImg = document.querySelector(".kakaoimg img");
+    kakaoImg.addEventListener("click", () => {
+      window.open(
+        "https://accounts.kakao.com/login/?continue=https%3A%2F%2Fcs.kakao.com%2Fhelps%3Fcategory%3D25#login",
+        "_blank"
+      );
+    });
+    search.addEventListener("click", () => {
+      alert("아이디 찾기 페이지로 이동합니다.");
+      window.open("/project03.html", "_blank");
+    });
+  </script>
+</body>
+
 </html>
