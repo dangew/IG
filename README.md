@@ -1,22 +1,31 @@
 # asdf
 
 ```mermaidjs
-erDiagram
-    CUSTOMER ||--o{ ORDER : places
-    CUSTOMER {
-        string name
-        string custNumber
-        string sector
+---
+title: Animal example
+---
+classDiagram
+    note "From Duck till Zebra"
+    Animal <|-- Duck
+    note for Duck "can fly\ncan swim\ncan dive\ncan help in debugging"
+    Animal <|-- Fish
+    Animal <|-- Zebra
+    Animal : +int age
+    Animal : +String gender
+    Animal: +isMammal()
+    Animal: +mate()
+    class Duck{
+        +String beakColor
+        +swim()
+        +quack()
     }
-    ORDER ||--|{ LINE-ITEM : contains
-    ORDER {
-        int orderNumber
-        string deliveryAddress
+    class Fish{
+        -int sizeInFeet
+        -canEat()
     }
-    LINE-ITEM {
-        string productCode
-        int quantity
-        float pricePerUnit
+    class Zebra{
+        +bool is_wild
+        +run()
     }
 
 ```
